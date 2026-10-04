@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "0.1.0",
+  "source": "VOICE NAVI public Release voice packs",
+  "releasePackIDs": [
+    "ja-standard",
+    "ja-kansai"
+  ],
+  "packCount": 2,
+  "packs": [
+    {
+      "packID": "ja-standard",
+      "displayName": "日本語・標準語",
+      "languageTag": "ja-JP",
+      "languageRoot": "ja",
+      "regionCode": "JP",
+      "region": null,
+      "dialectID": "standard",
+      "dialectType": null,
+      "version": "1.0.0",
+      "readiness": "RELEASE",
+      "candidate": false,
+      "currentReviewEvidence": false,
+      "tts": {
+        "mode": "system-tts",
+        "accentRequired": false,
+        "systemVoiceAdequacy": null,
+        "previewDisclaimer": "Browser speech is a convenience preview and does not authenticate regional accent or prosody."
+      },
+      "phrases": [
+        {
+          "id": "preview",
+          "label": "Preview",
+          "text": "300メートル先、右折です。"
+        },
+        {
+          "id": "start",
+          "label": "Start",
+          "text": "目的地まで案内します。"
+        },
+        {
+          "id": "reroute",
+          "label": "Reroute",
+          "text": "経路が変わりました。新しい経路で案内します。"
+        },
+        {
+          "id": "arrived",
+          "label": "Arrived",
+          "text": "目的地に到着しました。"
+        },
+        {
+          "id": "depart",
+          "label": "Depart",
+          "text": "目的地へ向かって出発します。"
+        },
+        {
+          "id": "right",
+          "label": "Right",
+          "text": "300メートル先、右折です。"
+        },
+        {
+          "id": "left",
+          "label": "Left",
+          "text": "300メートル先、左折です。"
+        },
+        {
+          "id": "straight",
+          "label": "Straight",
+          "text": "300メートル先、直進です。"
+        },
+        {
+          "id": "uTurn",
+          "label": "U-turn",
+          "text": "300メートル先、Uターンです。"
+        }
+      ]
+    },
+    {
+      "packID": "ja-kansai",
+      "displayName": "日本語・関西弁",
+      "languageTag": "ja-JP",
+      "languageRoot": "ja",
+      "regionCode": "JP",
+      "region": null,
+      "dialectID": "kansai",
+      "dialectType": null,
+      "version": "1.2.0",
+      "readiness": "RELEASE",
+      "candidate": false,
+      "currentReviewEvidence": true,
+      "tts": {
+        "mode": "system-tts",
+        "accentRequired": false,
+        "systemVoiceAdequacy": null,
+        "previewDisclaimer": "Browser speech is a convenience preview and does not authenticate regional accent or prosody."
+      },
+      "phrases": [
+        {
+          "id": "preview",
+          "label": "Preview",
+          "text": "300メートル先、右やで。"
+        },
+        {
+          "id": "start",
+          "label": "Start",
+          "text": "ほな、目的地までいこか。"
+        },
+        {
+          "id": "reroute",
+          "label": "Reroute",
+          "text": "ルート変わったで。新しいルートで案内するわ。"
+        },
+        {
+          "id": "arrived",
+          "label": "Arrived",
+          "text": "目的地に着いたで。おつかれさん。"
+        },
+        {
+          "id": "depart",
+          "label": "Depart",
+          "text": "ほな、出発や。"
+        },
+        {
+          "id": "right",
+          "label": "Right",
+          "text": "300メートル先、右やで。"
+        },
+        {
+          "id": "left",
+          "label": "Left",
+          "text": "300メートル先、左やで。"
+        },
+        {
+          "id": "straight",
+          "label": "Straight",
+          "text": "300メートル先、そのまままっすぐや。"
+        },
+        {
+          "id": "uTurn",
+          "label": "U-turn",
+          "text": "300メートル先、Uターンや。"
+        }
+      ]
+    }
+  ]
+}

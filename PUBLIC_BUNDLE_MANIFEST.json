@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "0.2.0",
+  "publicPackIDs": [
+    "ja-standard",
+    "ja-kansai"
+  ],
+  "files": [
+    {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "README.md",
+      "sha256": "8a424cf3e3715f8d6d71f80fdd91f6c5d4e0985333ae1ad4b5bba2d905e0a3f8",
+      "bytes": 466
+    },
+    {
+      "path": "app.js",
+      "sha256": "39d561157c718be6be660b380cc8fe30893ad7f7737fa3b7e12fb97095962b3e",
+      "bytes": 20424
+    },
+    {
+      "path": "apple-touch-icon.png",
+      "sha256": "5917bc9857f17d80e6186eb453c28fac7e7ce77611910cd2c4045f47e736c5db",
+      "bytes": 872
+    },
+    {
+      "path": "data/catalog.json",
+      "sha256": "73b5091a8199a67f881048891564c16d71c93bd37fd4b55d2e5134ece5b07b24",
+      "bytes": 3938
+    },
+    {
+      "path": "icon-512.png",
+      "sha256": "46d14f1f5b7bb0f69c61ef49efabd3e2a1eeeaf088d02d67cc25797bc0028c54",
+      "bytes": 2584
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "0c052e2bffe9d69839fc52effe7a8a50e3e80ed390ef2c5ff06e07b243a8df1a",
+      "bytes": 307
+    },
+    {
+      "path": "index.html",
+      "sha256": "04fab3f4e5be15e905f89261d21a5254de347e0e5be01fe22bab428e0bb0e6da",
+      "bytes": 8810
+    },
+    {
+      "path": "manifest.webmanifest",
+      "sha256": "08c4eb56bb926a58db2ecfad6e5f48b248a6bff1b813a86deb6102e8db6d53e3",
+      "bytes": 517
+    },
+    {
+      "path": "service-worker.js",
+      "sha256": "c8a3894d951c8a8ffd6f96f8446cb197481339bca5f57cab19d016db6d07e0a2",
+      "bytes": 1386
+    },
+    {
+      "path": "styles.css",
+      "sha256": "ee76665bdc88b5854d47eb3dd46c4635f98e0ef523e91a22f8d1bc8bb2f8fa2d",
+      "bytes": 15899
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "VOICE NAVI Public Voice Preview",
+  "short_name": "VOICE NAVI",
+  "description": "Preview the currently released VOICE NAVI navigation voices.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#080b12",
+  "theme_color": "#0b1020",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

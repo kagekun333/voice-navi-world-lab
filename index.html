@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Explore VOICE NAVI regional navigation voice packs.">
+  <title>VOICE NAVI — Public Voice Preview</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="VOICE NAVI home">
+      <span class="brand-mark" aria-hidden="true">VN</span>
+      <span><strong>VOICE NAVI</strong><small>PUBLIC VOICE PREVIEW</small></span>
+    </a>
+    <nav class="topnav" aria-label="VOICE NAVI navigation"><span class="lab-label">PUBLIC PREVIEW</span></nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <p class="eyebrow">NAVIGATION, IN WORDS THAT FEEL LOCAL.</p>
+      <h1 id="hero-title">Explore the world<br>one voice at a time.</h1>
+      <p class="hero-copy">Preview the currently released VOICE NAVI navigation voices. Internal candidate packs and research data are not part of this public site.</p>
+      <div class="hero-stats" aria-label="Catalog summary">
+        <div><strong id="pack-count">—</strong><span>packs loaded</span></div>
+        <div><strong id="language-count">—</strong><span>language roots</span></div>
+        <div><strong id="release-count">—</strong><span>release</span></div>
+        <div><strong id="beta-count">—</strong><span>beta</span></div>
+        <div><strong id="experimental-count">—</strong><span>experimental</span></div>
+        <div><strong>0</strong><span>paid APIs required</span></div>
+      </div>
+    </section>
+
+    <section class="lab" aria-labelledby="lab-title">
+      <div class="lab-heading">
+        <div>
+          <p class="eyebrow">VOICE PACK EXPLORER</p>
+          <h2 id="lab-title">Choose a voice pack</h2>
+        </div>
+        <div class="lab-tools">
+          <button id="favorites-filter" class="secondary compact" type="button" aria-pressed="false">☆ Favorites only</button>
+          <p class="status-note">Readiness labels describe evidence, not accent authenticity.</p>
+        </div>
+      </div>
+
+      <div class="controls">
+        <label>
+          <span>Language</span>
+          <select id="language-select" aria-describedby="language-help"></select>
+          <small id="language-help">Public release voice packs only.</small>
+        </label>
+        <label>
+          <span>Market / Locale</span>
+          <select id="market-select"></select>
+          <small>Country/locale filter derived from the pack language tag.</small>
+        </label>
+        <label class="pack-control">
+          <span>Voice pack</span>
+          <select id="pack-select"></select>
+          <small>Currently released public voice pack.</small>
+        </label>
+        <label>
+          <span>Search current language</span>
+          <input id="pack-search" type="search" placeholder="Standard, Kansai…" autocomplete="off">
+          <small>Searches pack name, region, dialect ID, and pack ID.</small>
+        </label>
+      </div>
+
+      <article class="pack-card" aria-live="polite">
+        <div class="pack-head">
+          <div>
+            <span id="readiness-badge" class="badge">—</span>
+            <h3 id="pack-name">Loading…</h3>
+            <p id="pack-meta" class="pack-meta"></p>
+          </div>
+          <div class="pack-actions">
+            <button id="share-button" class="favorite" type="button">↗ Share</button>
+            <button id="favorite-button" class="favorite" type="button" aria-pressed="false">☆ Favorite</button>
+            <div class="version-block"><span>PACK</span><strong id="pack-version">—</strong></div>
+          </div>
+        </div>
+
+        <div class="evidence-grid">
+          <div><span>Dialect type</span><strong id="dialect-type">—</strong></div>
+          <div><span>Review evidence</span><strong id="review-evidence">—</strong></div>
+          <div><span>TTS mode</span><strong id="tts-mode">—</strong></div>
+          <div><span>Accent required</span><strong id="accent-required">—</strong></div>
+        </div>
+
+        <div class="preview-panel">
+          <label>
+            <span>Navigation phrase</span>
+            <select id="phrase-select"></select>
+          </label>
+          <blockquote id="phrase-text">—</blockquote>
+          <div class="preview-actions">
+            <button id="speak-button" class="primary" type="button">▶ Preview browser voice</button>
+            <button id="stop-button" class="secondary" type="button">Stop</button>
+          </div>
+          <p id="voice-status" class="voice-status">Browser speech uses a matching system voice when available.</p>
+          <p id="share-status" class="voice-status" aria-live="polite"></p>
+        </div>
+
+        <aside id="accent-warning" class="warning" hidden>
+          <strong>Regional prosody not authenticated yet.</strong>
+          <span>This pack requires regional/accent audio review. Browser TTS demonstrates wording only.</span>
+        </aside>
+      </article>
+    </section>
+
+
+    <section class="feedback" aria-labelledby="feedback-title">
+      <div class="lab-heading">
+        <div>
+          <p class="eyebrow">HELP IMPROVE THE WORDING</p>
+          <h2 id="feedback-title">Review the wording.</h2>
+        </div>
+        <p class="status-note">Saved on this device only. Nothing is uploaded in v0.1.</p>
+      </div>
+
+      <div class="feedback-card">
+        <div class="feedback-context">
+          <span>Current pack</span>
+          <strong id="feedback-pack">—</strong>
+          <small id="feedback-phrase">—</small>
+          <div class="review-progress">
+            <strong id="review-progress-count">0 / 0</strong>
+            <span>phrases reviewed locally</span>
+          </div>
+        </div>
+
+        <div class="feedback-form">
+          <label class="native-check">
+            <input id="native-speaker" type="checkbox">
+            <span>I speak this regional variety / local form.</span>
+          </label>
+
+          <fieldset>
+            <legend>How natural is the wording?</legend>
+            <div class="rating-options">
+              <label><input type="radio" name="wording-rating" value="natural"><span>Natural</span></label>
+              <label><input type="radio" name="wording-rating" value="uncertain"><span>Not sure</span></label>
+              <label><input type="radio" name="wording-rating" value="awkward"><span>Awkward</span></label>
+            </div>
+          </fieldset>
+
+          <label>
+            <span>Optional note</span>
+            <textarea id="review-note" rows="4" maxlength="800" placeholder="What would you say instead? Is the wording too strong, too old-fashioned, or from the wrong region?"></textarea>
+          </label>
+
+          <div class="preview-actions">
+            <button id="save-review-button" class="primary" type="button">Save on this device</button>
+            <button id="next-review-button" class="secondary" type="button">Next unreviewed →</button>
+            <button id="copy-review-button" class="secondary" type="button">Copy phrase review</button>
+            <button id="copy-pack-review-button" class="secondary" type="button">Copy pack reviews</button>
+            <button id="clear-review-button" class="secondary subtle" type="button">Clear phrase</button>
+          </div>
+          <p id="feedback-status" class="voice-status">No review saved for this phrase yet.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="readiness" aria-labelledby="readiness-title">
+      <p class="eyebrow">WHAT THE LABELS MEAN</p>
+      <h2 id="readiness-title">Evidence before marketing.</h2>
+      <div class="readiness-grid">
+        <article><span class="badge release">RELEASE</span><h3>Release boundary</h3><p>Included in the current normal iOS Release allowlist and not marked candidate.</p></article>
+        <article><span class="badge beta">BETA</span><h3>Evidence exists</h3><p>Candidate with a review sidecar for its current version. Native/audio/navigation approval may still be pending.</p></article>
+        <article><span class="badge experimental">EXPERIMENTAL</span><h3>Explore carefully</h3><p>Mechanically usable pack without a current-version review sidecar. It is not quality-certified.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>VOICE NAVI</strong>
+    <span>Core navigation meaning stays deterministic. Browser voice is preview-only.</span>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
