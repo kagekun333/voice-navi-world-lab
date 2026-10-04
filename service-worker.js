@@ -1,5 +1,6 @@
-const CACHE = 'voice-navi-public-v1';
+const CACHE = 'voice-navi-public-v2';
 const CACHE_PREFIX = 'voice-navi-public-';
+const LEGACY_PRIVATE_CACHE_PREFIX = 'voice-navi-lab-';
 const ASSETS = [
   './',
   'index.html',
@@ -13,13 +14,16 @@ const ASSETS = [
 ];
 
 self.addEventListener('install', event => {
+  self.skipWaiting();
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
 });
 
 self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys()
-      .then(keys => Promise.all(keys.filter(key => key.startsWith(CACHE_PREFIX) && key !== CACHE).map(key => caches.delete(key))))
+      .then(keys => Promise.all(keys.filter(key =>
+        (key.startsWith(CACHE_PREFIX) && key !== CACHE) || key.startsWith(LEGACY_PRIVATE_CACHE_PREFIX)
+      ).map(key => caches.delete(key))))
       .then(() => self.clients.claim())
   );
 });

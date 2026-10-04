@@ -52,8 +52,8 @@
     },
     {
       "path": "service-worker.js",
-      "sha256": "c8a3894d951c8a8ffd6f96f8446cb197481339bca5f57cab19d016db6d07e0a2",
-      "bytes": 1386
+      "sha256": "f783d7f0f52926b8ec0988a8ac741c80373fed749cfb7513465eab9d970930ca",
+      "bytes": 1527
     },
     {
       "path": "styles.css",
