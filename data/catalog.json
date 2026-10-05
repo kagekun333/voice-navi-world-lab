@@ -1,10 +1,6 @@
 {
-  "schemaVersion": "0.1.0",
-  "source": "VOICE NAVI public Release voice packs",
-  "releasePackIDs": [
-    "ja-standard",
-    "ja-kansai"
-  ],
+  "schemaVersion": "0.2.0",
+  "source": "VOICE NAVI public product catalog",
   "packCount": 2,
   "packs": [
     {
@@ -15,17 +11,8 @@
       "regionCode": "JP",
       "region": null,
       "dialectID": "standard",
-      "dialectType": null,
       "version": "1.0.0",
-      "readiness": "RELEASE",
-      "candidate": false,
-      "currentReviewEvidence": false,
-      "tts": {
-        "mode": "system-tts",
-        "accentRequired": false,
-        "systemVoiceAdequacy": null,
-        "previewDisclaimer": "Browser speech is a convenience preview and does not authenticate regional accent or prosody."
-      },
+      "previewDisclaimer": "Browser speech previews wording only; final regional voice delivery may differ.",
       "phrases": [
         {
           "id": "preview",
@@ -82,17 +69,8 @@
       "regionCode": "JP",
       "region": null,
       "dialectID": "kansai",
-      "dialectType": null,
       "version": "1.2.0",
-      "readiness": "RELEASE",
-      "candidate": false,
-      "currentReviewEvidence": true,
-      "tts": {
-        "mode": "system-tts",
-        "accentRequired": false,
-        "systemVoiceAdequacy": null,
-        "previewDisclaimer": "Browser speech is a convenience preview and does not authenticate regional accent or prosody."
-      },
+      "previewDisclaimer": "Browser speech previews wording only; final regional voice delivery may differ.",
       "phrases": [
         {
           "id": "preview",
