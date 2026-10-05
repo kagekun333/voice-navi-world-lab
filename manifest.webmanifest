@@ -1,7 +1,7 @@
 {
-  "name": "VOICE NAVI Public Voice Preview",
+  "name": "VOICE NAVI Public Beta",
   "short_name": "VOICE NAVI",
-  "description": "Preview the currently released VOICE NAVI navigation voices.",
+  "description": "Preview VOICE NAVI navigation styles and help shape a more local voice experience.",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#080b12",
