@@ -1,4 +1,4 @@
-const CACHE = 'voice-navi-public-v4';
+const CACHE = 'voice-navi-public-v5';
 const CACHE_PREFIXES = ['voice-navi-public-', 'voice-navi-lab-'];
 const ASSETS = [
   './',
