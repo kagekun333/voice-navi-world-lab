@@ -15,23 +15,21 @@
   <header class="topbar">
     <a class="brand" href="#" aria-label="VOICE NAVI home">
       <span class="brand-mark" aria-hidden="true">VN</span>
-      <span><strong>VOICE NAVI</strong><small>PUBLIC VOICE PREVIEW</small></span>
+      <span><strong>VOICE NAVI</strong><small>PUBLIC BETA</small></span>
     </a>
-    <nav class="topnav" aria-label="VOICE NAVI navigation"><span class="lab-label">PUBLIC PREVIEW</span></nav>
+    <nav class="topnav" aria-label="VOICE NAVI navigation"><button id="install-button" class="secondary compact" type="button" hidden>Install app</button><span class="lab-label">PUBLIC BETA</span></nav>
   </header>
 
   <main>
     <section class="hero" aria-labelledby="hero-title">
       <p class="eyebrow">NAVIGATION, IN WORDS THAT FEEL LOCAL.</p>
       <h1 id="hero-title">Explore the world<br>one voice at a time.</h1>
-      <p class="hero-copy">Preview the currently released VOICE NAVI navigation voices. Internal candidate packs and research data are not part of this public site.</p>
-      <div class="hero-stats" aria-label="Catalog summary">
-        <div><strong id="pack-count">—</strong><span>packs loaded</span></div>
-        <div><strong id="language-count">—</strong><span>language roots</span></div>
-        <div><strong id="release-count">—</strong><span>release</span></div>
-        <div><strong id="beta-count">—</strong><span>beta</span></div>
-        <div><strong id="experimental-count">—</strong><span>experimental</span></div>
-        <div><strong>0</strong><span>paid APIs required</span></div>
+      <p class="hero-copy">Choose a local navigation style, hear real route phrases, and keep the voices you like. VOICE NAVI is growing toward a world where navigation sounds more like the places you travel through.</p>
+      <div class="hero-stats" aria-label="VOICE NAVI beta summary">
+        <div><strong id="pack-count">—</strong><span>live previews</span></div>
+        <div><strong>224</strong><span>Voice Packs in development</span></div>
+        <div><strong>PWA</strong><span>installable web app</span></div>
+        <div><strong>Local</strong><span>feedback stays on device</span></div>
       </div>
     </section>
 
@@ -43,7 +41,7 @@
         </div>
         <div class="lab-tools">
           <button id="favorites-filter" class="secondary compact" type="button" aria-pressed="false">☆ Favorites only</button>
-          <p class="status-note">Readiness labels describe evidence, not accent authenticity.</p>
+          <p class="status-note">Browser speech previews the wording. Regional voice delivery will improve as VOICE NAVI grows.</p>
         </div>
       </div>
 
@@ -51,7 +49,7 @@
         <label>
           <span>Language</span>
           <select id="language-select" aria-describedby="language-help"></select>
-          <small id="language-help">Public release voice packs only.</small>
+          <small id="language-help">Voice Packs currently available in this public beta.</small>
         </label>
         <label>
           <span>Market / Locale</span>
@@ -61,7 +59,7 @@
         <label class="pack-control">
           <span>Voice pack</span>
           <select id="pack-select"></select>
-          <small>Currently released public voice pack.</small>
+          <small>Choose the navigation style you want to preview.</small>
         </label>
         <label>
           <span>Search current language</span>
@@ -73,7 +71,7 @@
       <article class="pack-card" aria-live="polite">
         <div class="pack-head">
           <div>
-            <span id="readiness-badge" class="badge">—</span>
+            <span id="readiness-badge" class="badge public-beta">PUBLIC BETA</span>
             <h3 id="pack-name">Loading…</h3>
             <p id="pack-meta" class="pack-meta"></p>
           </div>
@@ -85,10 +83,10 @@
         </div>
 
         <div class="evidence-grid">
-          <div><span>Dialect type</span><strong id="dialect-type">—</strong></div>
-          <div><span>Review evidence</span><strong id="review-evidence">—</strong></div>
-          <div><span>TTS mode</span><strong id="tts-mode">—</strong></div>
-          <div><span>Accent required</span><strong id="accent-required">—</strong></div>
+          <div><span>Language</span><strong id="public-language">—</strong></div>
+          <div><span>Style</span><strong id="public-style">—</strong></div>
+          <div><span>Preview</span><strong>Browser voice</strong></div>
+          <div><span>Feedback</span><strong>This device only</strong></div>
         </div>
 
         <div class="preview-panel">
@@ -105,9 +103,9 @@
           <p id="share-status" class="voice-status" aria-live="polite"></p>
         </div>
 
-        <aside id="accent-warning" class="warning" hidden>
-          <strong>Regional prosody not authenticated yet.</strong>
-          <span>This pack requires regional/accent audio review. Browser TTS demonstrates wording only.</span>
+        <aside id="accent-warning" class="warning">
+          <strong>Preview voice ≠ final regional voice.</strong>
+          <span>Browser speech demonstrates the navigation wording. Final regional rhythm, accent, and voice character may differ.</span>
         </aside>
       </article>
     </section>
@@ -165,13 +163,13 @@
       </div>
     </section>
 
-    <section class="readiness" aria-labelledby="readiness-title">
-      <p class="eyebrow">WHAT THE LABELS MEAN</p>
-      <h2 id="readiness-title">Evidence before marketing.</h2>
-      <div class="readiness-grid">
-        <article><span class="badge release">RELEASE</span><h3>Release boundary</h3><p>Included in the current normal iOS Release allowlist and not marked candidate.</p></article>
-        <article><span class="badge beta">BETA</span><h3>Evidence exists</h3><p>Candidate with a review sidecar for its current version. Native/audio/navigation approval may still be pending.</p></article>
-        <article><span class="badge experimental">EXPERIMENTAL</span><h3>Explore carefully</h3><p>Mechanically usable pack without a current-version review sidecar. It is not quality-certified.</p></article>
+    <section class="product-flow" aria-labelledby="product-flow-title">
+      <p class="eyebrow">FROM PREVIEW TO THE ROAD</p>
+      <h2 id="product-flow-title">This is the beginning, not the destination.</h2>
+      <div class="product-flow-grid">
+        <article><span class="step-number">01</span><h3>Choose a voice</h3><p>Select a navigation style that feels right for the place, language, or mood.</p></article>
+        <article><span class="step-number">02</span><h3>Hear route phrases</h3><p>Preview deterministic navigation wording without changing the meaning of the maneuver.</p></article>
+        <article><span class="step-number">03</span><h3>Help it become natural</h3><p>Favorite, share, and review wording while the full navigation experience is being built.</p></article>
       </div>
     </section>
   </main>
