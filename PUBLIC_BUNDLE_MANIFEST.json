@@ -12,8 +12,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "8a424cf3e3715f8d6d71f80fdd91f6c5d4e0985333ae1ad4b5bba2d905e0a3f8",
-      "bytes": 466
+      "sha256": "bec0785d1d42adf369d6b35034fb65030cd8aa5c8202bb33efdcf9707974e20b",
+      "bytes": 457
     },
     {
       "path": "app.js",
@@ -42,13 +42,13 @@
     },
     {
       "path": "index.html",
-      "sha256": "8b2eed032bc71a6108334d6c87ba06b8cbb9e017d78f7e348c0cf829979b23ca",
-      "bytes": 8838
+      "sha256": "e76a5b04b4754660ece6f7f3c075e6d0b9a784f4730770cbb69d3bc970d85a6e",
+      "bytes": 8860
     },
     {
       "path": "manifest.webmanifest",
-      "sha256": "08c4eb56bb926a58db2ecfad6e5f48b248a6bff1b813a86deb6102e8db6d53e3",
-      "bytes": 517
+      "sha256": "1d43c1f6d696a1491b9dbb3a960c879121a3a9196833a2557e315fb8dd5c2bef",
+      "bytes": 530
     },
     {
       "path": "service-worker.js",
