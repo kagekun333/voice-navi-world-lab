@@ -151,7 +151,6 @@ function renderLanguageOptions() {
   const browserRoot = (navigator.language || '').split('-')[0].toLowerCase();
   state.language = roots.includes(browserRoot) ? browserRoot : (roots.includes('ja') ? 'ja' : roots[0]);
   $('language-select').value = state.language;
-  $('language-count').textContent = String(roots.length);
 }
 
 function renderMarketOptions() {
