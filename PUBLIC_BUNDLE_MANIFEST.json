@@ -52,13 +52,13 @@
     },
     {
       "path": "service-worker.js",
-      "sha256": "f783d7f0f52926b8ec0988a8ac741c80373fed749cfb7513465eab9d970930ca",
-      "bytes": 1527
+      "sha256": "e284eff28c462d9e1ba460ba56cec28bf7abe7d35972319ca95aa1d1ef676e14",
+      "bytes": 1937
     },
     {
       "path": "styles.css",
-      "sha256": "ee76665bdc88b5854d47eb3dd46c4635f98e0ef523e91a22f8d1bc8bb2f8fa2d",
-      "bytes": 15899
+      "sha256": "ab4f3d360fa0c6bb4e5926ad90bea4074f3a56bc68c77ec9df3d65d0b4dafb96",
+      "bytes": 10721
     }
   ]
 }
