@@ -174,10 +174,9 @@ function renderPackOptions({ preserveSelection = false } = {}) {
   const packs = filteredPacks().sort((a, b) => a.displayName.localeCompare(b.displayName));
   const previousID = preserveSelection ? state.pack?.packID : null;
   const previousPhraseID = preserveSelection ? state.phrase?.id : null;
-  $('pack-select').replaceChildren(...packs.map(pack => option(pack.packID, `${pack.displayName} · ${pack.readiness}`)));
+  $('pack-select').replaceChildren(...packs.map(pack => option(pack.packID, pack.displayName)));
   state.pack = packs.find(pack => pack.packID === previousID)
-    || packs.find(pack => pack.readiness === 'RELEASE' && pack.dialectID === 'standard')
-    || packs.find(pack => pack.readiness === 'RELEASE')
+    || packs.find(pack => pack.dialectID === 'standard')
     || packs[0]
     || null;
   $('pack-select').disabled = packs.length === 0;
@@ -260,7 +259,6 @@ function packReviewPayload() {
     languageTag: state.pack.languageTag,
     region: state.pack.region || null,
     dialectID: state.pack.dialectID || null,
-    readinessAtReview: state.pack.readiness,
     reviewedPhraseCount: reviews.length,
     totalPhraseCount: state.pack.phrases.length,
     browserSpeechPreviewOnly: true,
@@ -309,7 +307,6 @@ function reviewPayload() {
     languageTag: state.pack.languageTag,
     region: state.pack.region || null,
     dialectID: state.pack.dialectID || null,
-    readinessAtReview: state.pack.readiness,
     phraseID: state.phrase.id,
     phraseText: state.phrase.text,
     nativeSpeaker: $('native-speaker').checked,
@@ -333,20 +330,16 @@ function renderPack() {
   const pack = state.pack;
   if (!pack) {
     $('readiness-badge').textContent = 'NO MATCH';
-    $('readiness-badge').dataset.state = 'EXPERIMENTAL';
     $('pack-name').textContent = 'No matching voice pack';
     $('pack-meta').textContent = 'Change the market filter or search text.';
     $('pack-version').textContent = '—';
-    $('dialect-type').textContent = '—';
-    $('review-evidence').textContent = '—';
-    $('tts-mode').textContent = '—';
-    $('accent-required').textContent = '—';
+    $('public-language').textContent = '—';
+    $('public-style').textContent = '—';
     $('phrase-select').replaceChildren();
     $('phrase-text').textContent = '—';
     $('speak-button').disabled = true;
     $('share-button').disabled = true;
     $('share-status').textContent = '';
-    $('accent-warning').hidden = true;
     updateFavoriteButton();
     state.phrase = null;
     loadReviewForm();
@@ -354,16 +347,12 @@ function renderPack() {
   }
   $('share-button').disabled = false;
   $('share-status').textContent = '';
-  $('readiness-badge').textContent = pack.readiness;
-  $('readiness-badge').dataset.state = pack.readiness;
+  $('readiness-badge').textContent = 'PUBLIC BETA';
   $('pack-name').textContent = pack.displayName;
   $('pack-meta').textContent = [pack.languageTag, pack.region, pack.dialectID].filter(Boolean).join(' · ');
   $('pack-version').textContent = `v${pack.version}`;
-  $('dialect-type').textContent = titleCase(pack.dialectType || (pack.candidate ? 'candidate' : 'standard'));
-  $('review-evidence').textContent = pack.currentReviewEvidence ? 'Current packet' : (pack.readiness === 'RELEASE' ? 'Release boundary' : 'Not current');
-  $('tts-mode').textContent = titleCase(pack.tts.mode);
-  $('accent-required').textContent = pack.tts.accentRequired ? 'Yes' : 'No';
-  $('accent-warning').hidden = !pack.tts.accentRequired;
+  $('public-language').textContent = languageLabel(pack.languageRoot);
+  $('public-style').textContent = titleCase(pack.dialectID || 'standard');
   updateFavoriteButton();
 
   $('phrase-select').replaceChildren(...pack.phrases.map(phrase => option(phrase.id, phrase.label)));
@@ -383,7 +372,7 @@ function updateVoiceStatus(voice = null) {
   if (!state.pack) { $('voice-status').textContent = 'Select a voice pack to preview.'; return; }
   const selected = voice || speech.bestVoice(state.pack.languageTag);
   $('voice-status').textContent = selected
-    ? `Browser preview voice: ${selected.name} (${selected.lang}). Accent/prosody is not authenticated.`
+    ? `Browser preview voice: ${selected.name} (${selected.lang}). Final regional delivery may differ.`
     : `No matching system voice is currently exposed for ${state.pack.languageTag}. Wording remains available.`;
 }
 
@@ -392,10 +381,6 @@ async function loadCatalog() {
   if (!response.ok) throw new Error(`Catalog request failed: ${response.status}`);
   state.catalog = await response.json();
   $('pack-count').textContent = String(state.catalog.packCount);
-  const counts = state.catalog.packs.reduce((acc, pack) => { acc[pack.readiness] = (acc[pack.readiness] || 0) + 1; return acc; }, {});
-  $('release-count').textContent = String(counts.RELEASE || 0);
-  $('beta-count').textContent = String(counts.BETA || 0);
-  $('experimental-count').textContent = String(counts.EXPERIMENTAL || 0);
   renderLanguageOptions(); renderMarketOptions(); renderPackOptions();
   if (!applyDeepLink()) syncURL();
   if (new URLSearchParams(window.location.search).get('review') === '1') {
@@ -424,7 +409,7 @@ $('share-button').addEventListener('click', async () => {
   const url = deepLinkURL();
   try {
     if (navigator.share) {
-      await navigator.share({ title: `VOICE NAVI — ${state.pack.displayName}`, text: 'Review this VOICE NAVI regional voice pack.', url });
+      await navigator.share({ title: `VOICE NAVI — ${state.pack.displayName}`, text: 'Preview this VOICE NAVI navigation voice pack.', url });
       $('share-status').textContent = 'Share sheet opened.';
     } else {
       await copyText(url);
@@ -491,6 +476,26 @@ $('speak-button').addEventListener('click', () => {
 });
 $('stop-button').addEventListener('click', () => speech.stop());
 if (speech.available()) speech.synth.addEventListener?.('voiceschanged', () => updateVoiceStatus());
+
+let deferredInstallPrompt = null;
+const installButton = $('install-button');
+window.addEventListener('beforeinstallprompt', event => {
+  event.preventDefault();
+  deferredInstallPrompt = event;
+  installButton.hidden = false;
+});
+installButton.addEventListener('click', async () => {
+  if (!deferredInstallPrompt) return;
+  deferredInstallPrompt.prompt();
+  try { await deferredInstallPrompt.userChoice; } catch (_) {}
+  deferredInstallPrompt = null;
+  installButton.hidden = true;
+});
+window.addEventListener('appinstalled', () => {
+  deferredInstallPrompt = null;
+  installButton.hidden = true;
+});
+
 if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('service-worker.js').catch(() => {}));
 loadCatalog().catch(error => {
   $('pack-name').textContent = 'Catalog unavailable'; $('pack-meta').textContent = error.message; $('speak-button').disabled = true;
