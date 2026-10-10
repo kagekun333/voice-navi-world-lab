@@ -1,7 +1,7 @@
 {
   "schemaVersion": "0.2.0",
-  "source": "VOICE NAVI 13-language experimental free beta — 2 provisional local wording revisions",
-  "packCount": 16,
+  "source": "VOICE NAVI global free beta experimental 13 roots, 4 regional wording previews",
+  "packCount": 17,
   "packs": [
     {
       "packID": "ja-standard",
@@ -1908,6 +1908,204 @@
         }
       ],
       "previewLane": "TEXT_FIRST",
+      "regionalAccentCertified": false
+    },
+    {
+      "packID": "en-GB-tyn-geordie",
+      "displayName": "Tyneside / Geordie",
+      "languageTag": "en-GB",
+      "languageRoot": "en",
+      "regionCode": "GB",
+      "region": "Newcastle / Tyneside",
+      "dialectID": "geordie",
+      "version": "0.0.1-geordie-local-wording-experimental",
+      "previewDisclaimer": "Experimental Geordie WORDING; Newcastle University confirms listed local words, NOT this complete script or accent. Device system voice may be generic English. Not for live driving.",
+      "phrases": [],
+      "modes": [
+        {
+          "id": "local",
+          "label": "Local · text draft",
+          "phrases": [
+            {
+              "id": "start",
+              "label": "Start",
+              "text": "Navigation's on. Howay, let's get moving."
+            },
+            {
+              "id": "stop",
+              "label": "Stop",
+              "text": "Navigation's finished. Nice one."
+            },
+            {
+              "id": "depart",
+              "label": "Depart",
+              "text": "Howay, off we go."
+            },
+            {
+              "id": "reroute",
+              "label": "Reroute",
+              "text": "Route's changed. We'll take the new one."
+            },
+            {
+              "id": "arrived",
+              "label": "Arrived",
+              "text": "We've reached the destination. Canny job."
+            },
+            {
+              "id": "right-300",
+              "label": "Right · approx 330 yd",
+              "text": "In about 330 yards, turn right."
+            },
+            {
+              "id": "right-100",
+              "label": "Right · approx 110 yd",
+              "text": "In about 110 yards, turn right."
+            },
+            {
+              "id": "right-now",
+              "label": "Right · now",
+              "text": "Now, turn right."
+            },
+            {
+              "id": "left-300",
+              "label": "Left · approx 330 yd",
+              "text": "In about 330 yards, turn left."
+            },
+            {
+              "id": "left-100",
+              "label": "Left · approx 110 yd",
+              "text": "In about 110 yards, turn left."
+            },
+            {
+              "id": "left-now",
+              "label": "Left · now",
+              "text": "Now, turn left."
+            },
+            {
+              "id": "straight-300",
+              "label": "Straight · approx 330 yd",
+              "text": "In about 330 yards, continue straight."
+            },
+            {
+              "id": "straight-100",
+              "label": "Straight · approx 110 yd",
+              "text": "In about 110 yards, continue straight."
+            },
+            {
+              "id": "straight-now",
+              "label": "Straight · now",
+              "text": "Now, continue straight."
+            },
+            {
+              "id": "uTurn-300",
+              "label": "U-turn · approx 330 yd",
+              "text": "In about 330 yards, make a U-turn."
+            },
+            {
+              "id": "uTurn-100",
+              "label": "U-turn · approx 110 yd",
+              "text": "In about 110 yards, make a U-turn."
+            },
+            {
+              "id": "uTurn-now",
+              "label": "Uturn · now",
+              "text": "Now, make a U-turn."
+            }
+          ]
+        },
+        {
+          "id": "deep-local",
+          "label": "Deep Local · text draft",
+          "phrases": [
+            {
+              "id": "start",
+              "label": "Start",
+              "text": "Howay, navigation's on! Gan canny; I'll get ye there."
+            },
+            {
+              "id": "stop",
+              "label": "Stop",
+              "text": "That's navigation finished, marra. Gan canny!"
+            },
+            {
+              "id": "depart",
+              "label": "Depart",
+              "text": "Howay then, we're off. Gan canny."
+            },
+            {
+              "id": "reroute",
+              "label": "Reroute",
+              "text": "Route's changed. Aye, we'll take the new one."
+            },
+            {
+              "id": "arrived",
+              "label": "Arrived",
+              "text": "Wey aye, destination reached! Canny job, marra."
+            },
+            {
+              "id": "right-300",
+              "label": "Right · approx 330 yd",
+              "text": "In about 330 yards, turn right. Aye, nice and steady."
+            },
+            {
+              "id": "right-100",
+              "label": "Right · approx 110 yd",
+              "text": "In about 110 yards, turn right."
+            },
+            {
+              "id": "right-now",
+              "label": "Right · now",
+              "text": "Now, turn right."
+            },
+            {
+              "id": "left-300",
+              "label": "Left · approx 330 yd",
+              "text": "In about 330 yards, turn left. Nice and steady."
+            },
+            {
+              "id": "left-100",
+              "label": "Left · approx 110 yd",
+              "text": "In about 110 yards, turn left."
+            },
+            {
+              "id": "left-now",
+              "label": "Left · now",
+              "text": "Now, turn left."
+            },
+            {
+              "id": "straight-300",
+              "label": "Straight · approx 330 yd",
+              "text": "In about 330 yards, continue straight. Nice one."
+            },
+            {
+              "id": "straight-100",
+              "label": "Straight · approx 110 yd",
+              "text": "In about 110 yards, continue straight."
+            },
+            {
+              "id": "straight-now",
+              "label": "Straight · now",
+              "text": "Now, continue straight."
+            },
+            {
+              "id": "uTurn-300",
+              "label": "U-turn · approx 330 yd",
+              "text": "In about 330 yards, make a U-turn. We'll head back."
+            },
+            {
+              "id": "uTurn-100",
+              "label": "U-turn · approx 110 yd",
+              "text": "In about 110 yards, make a U-turn."
+            },
+            {
+              "id": "uTurn-now",
+              "label": "Uturn · now",
+              "text": "Now, make a U-turn."
+            }
+          ]
+        }
+      ],
+      "previewLane": "REGIONAL_DRAFT",
       "regionalAccentCertified": false
     }
   ]
