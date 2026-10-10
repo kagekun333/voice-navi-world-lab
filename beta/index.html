@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <meta name="robots" content="index,follow">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#0b1020">
   <meta name="description" content="Preview VOICE NAVI navigation styles and help shape a more local voice experience.">
-  <title>VOICE NAVI — Public Beta</title>
-  <link rel="manifest" href="manifest.webmanifest">
+  <title>VOICE NAVI — Free Global Beta · 13 Languages</title>
+  <!-- Private QA preview: no install manifest or offline functionality until release gate. -->
   <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="stylesheet" href="styles.css">
@@ -15,24 +16,30 @@
   <header class="topbar">
     <a class="brand" href="#" aria-label="VOICE NAVI home">
       <span class="brand-mark" aria-hidden="true">VN</span>
-      <span><strong>VOICE NAVI</strong><small>PUBLIC BETA</small></span>
+      <span><strong>VOICE NAVI</strong><small>FREE GLOBAL BETA</small></span>
     </a>
-    <nav class="topnav" aria-label="VOICE NAVI navigation"><button id="install-button" class="secondary compact" type="button" hidden>Install app</button><span class="lab-label">PUBLIC BETA</span></nav>
+    <nav class="topnav" aria-label="VOICE NAVI navigation"><button id="install-button" class="secondary compact" type="button" hidden>Install app</button><span class="lab-label">EXPERIMENTAL · FREE</span></nav>
   </header>
 
   <main>
+    <section class="warning" aria-label="Worldwide regional voice quality lanes" style="max-width:1100px;margin:18px auto;padding:16px">
+      <strong>13 STANDARD LANGUAGES + 3 REGIONAL WORDING PILOTS</strong>
+      <span>Standard = device-language reference. Regional pilots = unverified local wording.
+      All regional accents remain unverified. Browser speech availability differs by device.
+      Do not use as live driving navigation.</span>
+    </section>
+    <aside class="warning" role="status" style="margin:24px auto;max-width:1100px;padding:16px">
+      <strong>GLOBAL FREE BETA — REGIONAL ACCENTS UNVERIFIED</strong>
+      <span>13 standard-language references and 3 unverified local wording pilots. Local / Deep Local. Device speech is not a certified local accent. Do not use this preview for live navigation.</span>
+    </aside>
     <section class="hero" aria-labelledby="hero-title">
       <p class="eyebrow">NAVIGATION, IN WORDS THAT FEEL LOCAL.</p>
       <h1 id="hero-title">Explore the world<br>one voice at a time.</h1>
       <p class="hero-copy">Choose a local navigation style, hear real route phrases, and keep the voices you like. VOICE NAVI is growing toward a world where navigation sounds more like the places you travel through.</p>
-      <p style="margin:0 0 28px">
-        <a href="beta/" style="display:inline-block;padding:13px 20px;border:1px solid #7dd3fc;border-radius:10px;color:#7dd3fc;text-decoration:none;font-weight:700">Try 13 languages — Free Global Beta →</a>
-        <small style="display:block;max-width:650px;margin-top:9px;color:#adb6cd">16 experimental wording previews, including 3 unverified regional styles. System speech varies by device; not for live driving.</small>
-      </p>
       <div class="hero-stats" aria-label="VOICE NAVI beta summary">
-        <div><strong id="pack-count">—</strong><span>live previews</span></div>
-        <div><strong>224</strong><span>Voice Packs in development</span></div>
-        <div><strong>PWA</strong><span>installable web app</span></div>
+        <div><strong id="pack-count">—</strong><span>experimental free previews</span></div>
+        <div><strong id="language-count">—</strong><span>language roots here</span></div>
+        <div><strong>17</strong><span>route events per mode</span></div>
         <div><strong>Local</strong><span>feedback stays on device</span></div>
       </div>
     </section>
@@ -45,7 +52,7 @@
         </div>
         <div class="lab-tools">
           <button id="favorites-filter" class="secondary compact" type="button" aria-pressed="false">☆ Favorites only</button>
-          <p class="status-note">Browser speech previews the wording. Regional voice delivery will improve as VOICE NAVI grows.</p>
+          <p class="status-note">EXPERIMENTAL BETA. Regional phrases still need native-language and accent QA. Browser voices do not verify dialect or mode accent.</p>
         </div>
       </div>
 
@@ -53,7 +60,7 @@
         <label>
           <span>Language</span>
           <select id="language-select" aria-describedby="language-help"></select>
-          <small id="language-help">Voice Packs currently available in this public beta.</small>
+          <small id="language-help">Free system speech is available only on supported browsers/devices.</small>
         </label>
         <label>
           <span>Market / Locale</span>
@@ -75,7 +82,7 @@
       <article class="pack-card" aria-live="polite">
         <div class="pack-head">
           <div>
-            <span id="readiness-badge" class="badge public-beta">PUBLIC BETA</span>
+            <span id="readiness-badge" class="badge public-beta">DRAFT</span>
             <h3 id="pack-name">Loading…</h3>
             <p id="pack-meta" class="pack-meta"></p>
           </div>
@@ -89,27 +96,42 @@
         <div class="evidence-grid">
           <div><span>Language</span><strong id="public-language">—</strong></div>
           <div><span>Style</span><strong id="public-style">—</strong></div>
-          <div><span>Preview</span><strong>Browser voice</strong></div>
+          <div><span>Preview</span><strong>VOICE NAVI / browser</strong></div>
           <div><span>Feedback</span><strong>This device only</strong></div>
         </div>
 
         <div class="preview-panel">
+          <label id="mode-control" hidden>
+            <span>Intensity</span>
+            <select id="mode-select"></select>
+            <small>Local / Deep Local change wording, not the installed browser voice or regional accent.</small>
+          </label>
           <label>
             <span>Navigation phrase</span>
             <select id="phrase-select"></select>
           </label>
-          <blockquote id="phrase-text">—</blockquote>
+          <blockquote id="phrase-text" dir="auto">—</blockquote>
           <div class="preview-actions">
             <button id="speak-button" class="primary" type="button">▶ Preview browser voice</button>
             <button id="stop-button" class="secondary" type="button">Stop</button>
           </div>
-          <p id="voice-status" class="voice-status">Browser speech uses a matching system voice when available.</p>
+          <p id="voice-status" class="voice-status" aria-live="polite">Checking voices…</p>
+          <section class="device-voice-audit" aria-label="Speech availability on this device">
+            <p id="device-voice-status" class="voice-status" aria-live="polite">Detecting available voices…</p>
+            <label class="remote-voice-choice"><input id="allow-remote-voices" type="checkbox"> Allow remote browser voices (may use network processing)</label>
+            <div class="device-voice-actions">
+              <button id="rescan-voices-button" class="secondary compact" type="button">Recheck voices</button>
+              <button id="copy-voice-report-button" class="secondary compact" type="button">Copy device voice report</button>
+            </div>
+            <small>Remote-reported voices are excluded by default. Nothing is uploaded by VOICE NAVI. Speech may still be unavailable on your browser.</small>
+            <p id="copy-voice-status" class="voice-status" aria-live="polite"></p>
+          </section>
           <p id="share-status" class="voice-status" aria-live="polite"></p>
         </div>
 
         <aside id="accent-warning" class="warning">
-          <strong>Preview voice ≠ final regional voice.</strong>
-          <span>Browser speech demonstrates the navigation wording. Final regional rhythm, accent, and voice character may differ.</span>
+          <strong>System speech is not proof of regional authenticity.</strong>
+          <span>The free preview uses available browser voices, which may speak in a standard-language accent or fail for regional spoken varieties. Do not use this prototype for driving.</span>
         </aside>
       </article>
     </section>

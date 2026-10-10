@@ -1,0 +1,1914 @@
+{
+  "schemaVersion": "0.2.0",
+  "source": "VOICE NAVI Public Experimental Free Global Beta",
+  "packCount": 16,
+  "packs": [
+    {
+      "packID": "ja-standard",
+      "displayName": "日本語・標準語",
+      "languageTag": "ja-JP",
+      "languageRoot": "ja",
+      "regionCode": "JP",
+      "region": null,
+      "dialectID": "standard",
+      "version": "0.0.0-free-beta-text-draft",
+      "previewDisclaimer": "Standard-language system voice candidate, not native-speaker certified; not live navigation.",
+      "phrases": [
+        {
+          "id": "start",
+          "label": "Start",
+          "text": "目的地まで案内します。"
+        },
+        {
+          "id": "stop",
+          "label": "Stop",
+          "text": "案内を終了します。"
+        },
+        {
+          "id": "depart",
+          "label": "Depart",
+          "text": "目的地へ向かって出発します。"
+        },
+        {
+          "id": "reroute",
+          "label": "Reroute",
+          "text": "経路が変わりました。新しい経路で案内します。"
+        },
+        {
+          "id": "arrived",
+          "label": "Arrived",
+          "text": "目的地に到着しました。"
+        },
+        {
+          "id": "right-300",
+          "label": "Right · 300 m",
+          "text": "300メートル先、右折です。"
+        },
+        {
+          "id": "right-100",
+          "label": "Right · 100 m",
+          "text": "100メートル先、右折です。"
+        },
+        {
+          "id": "right-now",
+          "label": "Right · now",
+          "text": "ここで右折です。"
+        },
+        {
+          "id": "left-300",
+          "label": "Left · 300 m",
+          "text": "300メートル先、左折です。"
+        },
+        {
+          "id": "left-100",
+          "label": "Left · 100 m",
+          "text": "100メートル先、左折です。"
+        },
+        {
+          "id": "left-now",
+          "label": "Left · now",
+          "text": "ここで左折です。"
+        },
+        {
+          "id": "straight-300",
+          "label": "Straight · 300 m",
+          "text": "300メートル先、直進です。"
+        },
+        {
+          "id": "straight-100",
+          "label": "Straight · 100 m",
+          "text": "100メートル先、直進です。"
+        },
+        {
+          "id": "straight-now",
+          "label": "Straight · now",
+          "text": "ここはそのまま直進です。"
+        },
+        {
+          "id": "uTurn-300",
+          "label": "Uturn · 300 m",
+          "text": "300メートル先、Uターンです。"
+        },
+        {
+          "id": "uTurn-100",
+          "label": "Uturn · 100 m",
+          "text": "100メートル先、Uターンです。"
+        },
+        {
+          "id": "uTurn-now",
+          "label": "Uturn · now",
+          "text": "ここでUターンです。"
+        }
+      ],
+      "modes": [],
+      "previewLane": "STANDARD_ANCHOR",
+      "regionalAccentCertified": false
+    },
+    {
+      "packID": "en-US-standard",
+      "displayName": "English (US) · Standard",
+      "languageTag": "en-US",
+      "languageRoot": "en",
+      "regionCode": "US",
+      "region": null,
+      "dialectID": "standard",
+      "version": "0.0.0-free-beta-text-draft",
+      "previewDisclaimer": "Standard-language system voice candidate, not native-speaker certified; not live navigation.",
+      "phrases": [
+        {
+          "id": "start",
+          "label": "Start",
+          "text": "Guidance to your destination has started."
+        },
+        {
+          "id": "stop",
+          "label": "Stop",
+          "text": "Navigation guidance has ended."
+        },
+        {
+          "id": "depart",
+          "label": "Depart",
+          "text": "Set off towards your destination."
+        },
+        {
+          "id": "reroute",
+          "label": "Reroute",
+          "text": "The route has changed. Following the new route."
+        },
+        {
+          "id": "arrived",
+          "label": "Arrived",
+          "text": "You have arrived at your destination."
+        },
+        {
+          "id": "right-300",
+          "label": "Right · 300 m",
+          "text": "In 300 meters, turn right."
+        },
+        {
+          "id": "right-100",
+          "label": "Right · 100 m",
+          "text": "In 100 meters, turn right."
+        },
+        {
+          "id": "right-now",
+          "label": "Right · now",
+          "text": "Turn right now."
+        },
+        {
+          "id": "left-300",
+          "label": "Left · 300 m",
+          "text": "In 300 meters, turn left."
+        },
+        {
+          "id": "left-100",
+          "label": "Left · 100 m",
+          "text": "In 100 meters, turn left."
+        },
+        {
+          "id": "left-now",
+          "label": "Left · now",
+          "text": "Turn left now."
+        },
+        {
+          "id": "straight-300",
+          "label": "Straight · 300 m",
+          "text": "In 300 meters, continue straight."
+        },
+        {
+          "id": "straight-100",
+          "label": "Straight · 100 m",
+          "text": "In 100 meters, continue straight."
+        },
+        {
+          "id": "straight-now",
+          "label": "Straight · now",
+          "text": "Continue straight now."
+        },
+        {
+          "id": "uTurn-300",
+          "label": "Uturn · 300 m",
+          "text": "In 300 meters, make a U-turn."
+        },
+        {
+          "id": "uTurn-100",
+          "label": "Uturn · 100 m",
+          "text": "In 100 meters, make a U-turn."
+        },
+        {
+          "id": "uTurn-now",
+          "label": "Uturn · now",
+          "text": "Make a U-turn now."
+        }
+      ],
+      "modes": [],
+      "previewLane": "STANDARD_ANCHOR",
+      "regionalAccentCertified": false
+    },
+    {
+      "packID": "fr-FR-standard",
+      "displayName": "Français (France) · Standard",
+      "languageTag": "fr-FR",
+      "languageRoot": "fr",
+      "regionCode": "FR",
+      "region": null,
+      "dialectID": "standard",
+      "version": "0.0.0-free-beta-text-draft",
+      "previewDisclaimer": "Standard-language system voice candidate, not native-speaker certified; not live navigation.",
+      "phrases": [
+        {
+          "id": "start",
+          "label": "Start",
+          "text": "Le guidage vers votre destination commence."
+        },
+        {
+          "id": "stop",
+          "label": "Stop",
+          "text": "Le guidage est terminé."
+        },
+        {
+          "id": "depart",
+          "label": "Depart",
+          "text": "Partez vers votre destination."
+        },
+        {
+          "id": "reroute",
+          "label": "Reroute",
+          "text": "L'itinéraire a changé. Suivez le nouvel itinéraire."
+        },
+        {
+          "id": "arrived",
+          "label": "Arrived",
+          "text": "Vous êtes arrivé à destination."
+        },
+        {
+          "id": "right-300",
+          "label": "Right · 300 m",
+          "text": "Dans 300 mètres, tournez à droite."
+        },
+        {
+          "id": "right-100",
+          "label": "Right · 100 m",
+          "text": "Dans 100 mètres, tournez à droite."
+        },
+        {
+          "id": "right-now",
+          "label": "Right · now",
+          "text": "Tournez à droite maintenant."
+        },
+        {
+          "id": "left-300",
+          "label": "Left · 300 m",
+          "text": "Dans 300 mètres, tournez à gauche."
+        },
+        {
+          "id": "left-100",
+          "label": "Left · 100 m",
+          "text": "Dans 100 mètres, tournez à gauche."
+        },
+        {
+          "id": "left-now",
+          "label": "Left · now",
+          "text": "Tournez à gauche maintenant."
+        },
+        {
+          "id": "straight-300",
+          "label": "Straight · 300 m",
+          "text": "Dans 300 mètres, continuez tout droit."
+        },
+        {
+          "id": "straight-100",
+          "label": "Straight · 100 m",
+          "text": "Dans 100 mètres, continuez tout droit."
+        },
+        {
+          "id": "straight-now",
+          "label": "Straight · now",
+          "text": "Continuez tout droit maintenant."
+        },
+        {
+          "id": "uTurn-300",
+          "label": "Uturn · 300 m",
+          "text": "Dans 300 mètres, faites demi-tour."
+        },
+        {
+          "id": "uTurn-100",
+          "label": "Uturn · 100 m",
+          "text": "Dans 100 mètres, faites demi-tour."
+        },
+        {
+          "id": "uTurn-now",
+          "label": "Uturn · now",
+          "text": "Faites demi-tour maintenant."
+        }
+      ],
+      "modes": [],
+      "previewLane": "STANDARD_ANCHOR",
+      "regionalAccentCertified": false
+    },
+    {
+      "packID": "es-ES-standard",
+      "displayName": "Español (España) · Estándar",
+      "languageTag": "es-ES",
+      "languageRoot": "es",
+      "regionCode": "ES",
+      "region": null,
+      "dialectID": "standard",
+      "version": "0.0.0-free-beta-text-draft",
+      "previewDisclaimer": "Standard-language system voice candidate, not native-speaker certified; not live navigation.",
+      "phrases": [
+        {
+          "id": "start",
+          "label": "Start",
+          "text": "Ha comenzado la navegación hacia su destino."
+        },
+        {
+          "id": "stop",
+          "label": "Stop",
+          "text": "La navegación ha terminado."
+        },
+        {
+          "id": "depart",
+          "label": "Depart",
+          "text": "Salga hacia su destino."
+        },
+        {
+          "id": "reroute",
+          "label": "Reroute",
+          "text": "La ruta ha cambiado. Siga la nueva ruta."
+        },
+        {
+          "id": "arrived",
+          "label": "Arrived",
+          "text": "Ha llegado a su destino."
+        },
+        {
+          "id": "right-300",
+          "label": "Right · 300 m",
+          "text": "En 300 metros, gire a la derecha."
+        },
+        {
+          "id": "right-100",
+          "label": "Right · 100 m",
+          "text": "En 100 metros, gire a la derecha."
+        },
+        {
+          "id": "right-now",
+          "label": "Right · now",
+          "text": "Gire a la derecha ahora."
+        },
+        {
+          "id": "left-300",
+          "label": "Left · 300 m",
+          "text": "En 300 metros, gire a la izquierda."
+        },
+        {
+          "id": "left-100",
+          "label": "Left · 100 m",
+          "text": "En 100 metros, gire a la izquierda."
+        },
+        {
+          "id": "left-now",
+          "label": "Left · now",
+          "text": "Gire a la izquierda ahora."
+        },
+        {
+          "id": "straight-300",
+          "label": "Straight · 300 m",
+          "text": "En 300 metros, siga recto."
+        },
+        {
+          "id": "straight-100",
+          "label": "Straight · 100 m",
+          "text": "En 100 metros, siga recto."
+        },
+        {
+          "id": "straight-now",
+          "label": "Straight · now",
+          "text": "Siga recto ahora."
+        },
+        {
+          "id": "uTurn-300",
+          "label": "Uturn · 300 m",
+          "text": "En 300 metros, cambie de sentido."
+        },
+        {
+          "id": "uTurn-100",
+          "label": "Uturn · 100 m",
+          "text": "En 100 metros, cambie de sentido."
+        },
+        {
+          "id": "uTurn-now",
+          "label": "Uturn · now",
+          "text": "Cambie de sentido ahora."
+        }
+      ],
+      "modes": [],
+      "previewLane": "STANDARD_ANCHOR",
+      "regionalAccentCertified": false
+    },
+    {
+      "packID": "pt-BR-base-voce-subjunctive",
+      "displayName": "Portuguese (Brazil) · Você Subjunctive Base",
+      "languageTag": "pt-BR",
+      "languageRoot": "pt",
+      "regionCode": "BR",
+      "region": null,
+      "dialectID": "portuguese-br-voce-subjunctive",
+      "version": "0.0.0-free-beta-text-draft",
+      "previewDisclaimer": "Standard-language system voice candidate, not native-speaker certified; not live navigation.",
+      "phrases": [
+        {
+          "id": "start",
+          "label": "Start",
+          "text": "A navegação até o seu destino começou."
+        },
+        {
+          "id": "stop",
+          "label": "Stop",
+          "text": "A navegação foi encerrada."
+        },
+        {
+          "id": "depart",
+          "label": "Depart",
+          "text": "Siga em direção ao seu destino."
+        },
+        {
+          "id": "reroute",
+          "label": "Reroute",
+          "text": "A rota mudou. Siga pela nova rota."
+        },
+        {
+          "id": "arrived",
+          "label": "Arrived",
+          "text": "Você chegou ao seu destino."
+        },
+        {
+          "id": "right-300",
+          "label": "Right · 300 m",
+          "text": "Em 300 metros, vire à direita."
+        },
+        {
+          "id": "right-100",
+          "label": "Right · 100 m",
+          "text": "Em 100 metros, vire à direita."
+        },
+        {
+          "id": "right-now",
+          "label": "Right · now",
+          "text": "Vire à direita agora."
+        },
+        {
+          "id": "left-300",
+          "label": "Left · 300 m",
+          "text": "Em 300 metros, vire à esquerda."
+        },
+        {
+          "id": "left-100",
+          "label": "Left · 100 m",
+          "text": "Em 100 metros, vire à esquerda."
+        },
+        {
+          "id": "left-now",
+          "label": "Left · now",
+          "text": "Vire à esquerda agora."
+        },
+        {
+          "id": "straight-300",
+          "label": "Straight · 300 m",
+          "text": "Em 300 metros, siga em frente."
+        },
+        {
+          "id": "straight-100",
+          "label": "Straight · 100 m",
+          "text": "Em 100 metros, siga em frente."
+        },
+        {
+          "id": "straight-now",
+          "label": "Straight · now",
+          "text": "Siga em frente agora."
+        },
+        {
+          "id": "uTurn-300",
+          "label": "Uturn · 300 m",
+          "text": "Em 300 metros, faça o retorno."
+        },
+        {
+          "id": "uTurn-100",
+          "label": "Uturn · 100 m",
+          "text": "Em 100 metros, faça o retorno."
+        },
+        {
+          "id": "uTurn-now",
+          "label": "Uturn · now",
+          "text": "Faça o retorno agora."
+        }
+      ],
+      "modes": [],
+      "previewLane": "STANDARD_ANCHOR",
+      "regionalAccentCertified": false
+    },
+    {
+      "packID": "de-DE-base-formal-sie",
+      "displayName": "Deutsch (Deutschland) · Formelle Sie-Basis",
+      "languageTag": "de-DE",
+      "languageRoot": "de",
+      "regionCode": "DE",
+      "region": null,
+      "dialectID": "formal-sie",
+      "version": "0.0.0-free-beta-text-draft",
+      "previewDisclaimer": "Standard-language system voice candidate, not native-speaker certified; not live navigation.",
+      "phrases": [
+        {
+          "id": "start",
+          "label": "Start",
+          "text": "Die Navigation zu Ihrem Ziel beginnt."
+        },
+        {
+          "id": "stop",
+          "label": "Stop",
+          "text": "Die Navigation ist beendet."
+        },
+        {
+          "id": "depart",
+          "label": "Depart",
+          "text": "Fahren Sie in Richtung Ihres Ziels los."
+        },
+        {
+          "id": "reroute",
+          "label": "Reroute",
+          "text": "Die Route wurde geändert. Folgen Sie der neuen Route."
+        },
+        {
+          "id": "arrived",
+          "label": "Arrived",
+          "text": "Sie haben Ihr Ziel erreicht."
+        },
+        {
+          "id": "right-300",
+          "label": "Right · 300 m",
+          "text": "In 300 Metern, biegen Sie rechts ab."
+        },
+        {
+          "id": "right-100",
+          "label": "Right · 100 m",
+          "text": "In 100 Metern, biegen Sie rechts ab."
+        },
+        {
+          "id": "right-now",
+          "label": "Right · now",
+          "text": "Biegen Sie jetzt rechts ab."
+        },
+        {
+          "id": "left-300",
+          "label": "Left · 300 m",
+          "text": "In 300 Metern, biegen Sie links ab."
+        },
+        {
+          "id": "left-100",
+          "label": "Left · 100 m",
+          "text": "In 100 Metern, biegen Sie links ab."
+        },
+        {
+          "id": "left-now",
+          "label": "Left · now",
+          "text": "Biegen Sie jetzt links ab."
+        },
+        {
+          "id": "straight-300",
+          "label": "Straight · 300 m",
+          "text": "In 300 Metern, fahren Sie geradeaus weiter."
+        },
+        {
+          "id": "straight-100",
+          "label": "Straight · 100 m",
+          "text": "In 100 Metern, fahren Sie geradeaus weiter."
+        },
+        {
+          "id": "straight-now",
+          "label": "Straight · now",
+          "text": "Fahren Sie jetzt geradeaus weiter."
+        },
+        {
+          "id": "uTurn-300",
+          "label": "Uturn · 300 m",
+          "text": "In 300 Metern, wenden Sie."
+        },
+        {
+          "id": "uTurn-100",
+          "label": "Uturn · 100 m",
+          "text": "In 100 Metern, wenden Sie."
+        },
+        {
+          "id": "uTurn-now",
+          "label": "Uturn · now",
+          "text": "Wenden Sie jetzt."
+        }
+      ],
+      "modes": [],
+      "previewLane": "STANDARD_ANCHOR",
+      "regionalAccentCertified": false
+    },
+    {
+      "packID": "it-IT-base-formal-lei",
+      "displayName": "Italiano (Italia) · Base formale Lei",
+      "languageTag": "it-IT",
+      "languageRoot": "it",
+      "regionCode": "IT",
+      "region": null,
+      "dialectID": "formal-lei",
+      "version": "0.0.0-free-beta-text-draft",
+      "previewDisclaimer": "Standard-language system voice candidate, not native-speaker certified; not live navigation.",
+      "phrases": [
+        {
+          "id": "start",
+          "label": "Start",
+          "text": "La navigazione verso la destinazione è iniziata."
+        },
+        {
+          "id": "stop",
+          "label": "Stop",
+          "text": "La navigazione è terminata."
+        },
+        {
+          "id": "depart",
+          "label": "Depart",
+          "text": "Parta verso la destinazione."
+        },
+        {
+          "id": "reroute",
+          "label": "Reroute",
+          "text": "Il percorso è cambiato. Segua il nuovo percorso."
+        },
+        {
+          "id": "arrived",
+          "label": "Arrived",
+          "text": "Ha raggiunto la destinazione."
+        },
+        {
+          "id": "right-300",
+          "label": "Right · 300 m",
+          "text": "Tra 300 metri, svolti a destra."
+        },
+        {
+          "id": "right-100",
+          "label": "Right · 100 m",
+          "text": "Tra 100 metri, svolti a destra."
+        },
+        {
+          "id": "right-now",
+          "label": "Right · now",
+          "text": "Svolti ora a destra."
+        },
+        {
+          "id": "left-300",
+          "label": "Left · 300 m",
+          "text": "Tra 300 metri, svolti a sinistra."
+        },
+        {
+          "id": "left-100",
+          "label": "Left · 100 m",
+          "text": "Tra 100 metri, svolti a sinistra."
+        },
+        {
+          "id": "left-now",
+          "label": "Left · now",
+          "text": "Svolti ora a sinistra."
+        },
+        {
+          "id": "straight-300",
+          "label": "Straight · 300 m",
+          "text": "Tra 300 metri, prosegua diritto."
+        },
+        {
+          "id": "straight-100",
+          "label": "Straight · 100 m",
+          "text": "Tra 100 metri, prosegua diritto."
+        },
+        {
+          "id": "straight-now",
+          "label": "Straight · now",
+          "text": "Prosegua ora diritto."
+        },
+        {
+          "id": "uTurn-300",
+          "label": "Uturn · 300 m",
+          "text": "Tra 300 metri, effettui un'inversione di marcia."
+        },
+        {
+          "id": "uTurn-100",
+          "label": "Uturn · 100 m",
+          "text": "Tra 100 metri, effettui un'inversione di marcia."
+        },
+        {
+          "id": "uTurn-now",
+          "label": "Uturn · now",
+          "text": "Effettui ora un'inversione di marcia."
+        }
+      ],
+      "modes": [],
+      "previewLane": "STANDARD_ANCHOR",
+      "regionalAccentCertified": false
+    },
+    {
+      "packID": "ko-KR-standard",
+      "displayName": "표준 한국어 · 韓国語・標準語",
+      "languageTag": "ko-KR",
+      "languageRoot": "ko",
+      "regionCode": "KR",
+      "region": "韓国語・標準語",
+      "dialectID": "ko-KR-standard",
+      "version": "0.0.0-free-beta-text-draft",
+      "previewDisclaimer": "Draft wording only; system TTS is not the certified local voice; human review needed.",
+      "phrases": [
+        {
+          "id": "start",
+          "label": "案内開始",
+          "text": "목적지까지 길 안내를 시작할게요."
+        },
+        {
+          "id": "stop",
+          "label": "案内停止",
+          "text": "길 안내를 종료할게요."
+        },
+        {
+          "id": "depart",
+          "label": "出発",
+          "text": "이제 출발해요."
+        },
+        {
+          "id": "reroute",
+          "label": "経路変更",
+          "text": "경로가 바뀌었어요. 새로운 경로로 안내할게요."
+        },
+        {
+          "id": "arrived",
+          "label": "目的地到着",
+          "text": "목적지에 도착했어요."
+        },
+        {
+          "id": "right-300",
+          "label": "右折 300m",
+          "text": "300미터 앞에서 우회전하세요."
+        },
+        {
+          "id": "right-100",
+          "label": "右折 100m",
+          "text": "100미터 앞에서 우회전하세요."
+        },
+        {
+          "id": "right-now",
+          "label": "右折 直前",
+          "text": "여기서 우회전하세요."
+        },
+        {
+          "id": "left-300",
+          "label": "左折 300m",
+          "text": "300미터 앞에서 좌회전하세요."
+        },
+        {
+          "id": "left-100",
+          "label": "左折 100m",
+          "text": "100미터 앞에서 좌회전하세요."
+        },
+        {
+          "id": "left-now",
+          "label": "左折 直前",
+          "text": "여기서 좌회전하세요."
+        },
+        {
+          "id": "straight-300",
+          "label": "直進 300m",
+          "text": "300미터 앞에서도 계속 직진하세요."
+        },
+        {
+          "id": "straight-100",
+          "label": "直進 100m",
+          "text": "100미터 앞에서도 계속 직진하세요."
+        },
+        {
+          "id": "straight-now",
+          "label": "直進 直前",
+          "text": "여기서 계속 직진하세요."
+        },
+        {
+          "id": "uTurn-300",
+          "label": "Uターン 300m",
+          "text": "300미터 앞에서 유턴하세요."
+        },
+        {
+          "id": "uTurn-100",
+          "label": "Uターン 100m",
+          "text": "100미터 앞에서 유턴하세요."
+        },
+        {
+          "id": "uTurn-now",
+          "label": "Uターン 直前",
+          "text": "여기서 유턴하세요."
+        }
+      ],
+      "modes": [],
+      "previewLane": "STANDARD_ANCHOR",
+      "regionalAccentCertified": false
+    },
+    {
+      "packID": "zh-CN-standard",
+      "displayName": "普通话・标准 · 中国語（普通話）・中国大陸標準",
+      "languageTag": "zh-CN",
+      "languageRoot": "zh",
+      "regionCode": "CN",
+      "region": "中国語（普通話）・中国大陸標準",
+      "dialectID": "zh-CN-standard",
+      "version": "0.0.0-free-beta-text-draft",
+      "previewDisclaimer": "Draft wording only; system TTS is not the certified local voice; human review needed.",
+      "phrases": [
+        {
+          "id": "start",
+          "label": "案内開始",
+          "text": "开始为您导航。"
+        },
+        {
+          "id": "stop",
+          "label": "案内停止",
+          "text": "导航已结束。"
+        },
+        {
+          "id": "depart",
+          "label": "出発",
+          "text": "准备出发。"
+        },
+        {
+          "id": "reroute",
+          "label": "経路変更",
+          "text": "路线已变更，请按新路线行驶。"
+        },
+        {
+          "id": "arrived",
+          "label": "目的地到着",
+          "text": "已经到达目的地。"
+        },
+        {
+          "id": "right-300",
+          "label": "右折 300m",
+          "text": "前方300米右转。"
+        },
+        {
+          "id": "right-100",
+          "label": "右折 100m",
+          "text": "前方100米右转。"
+        },
+        {
+          "id": "right-now",
+          "label": "右折 直前",
+          "text": "现在右转。"
+        },
+        {
+          "id": "left-300",
+          "label": "左折 300m",
+          "text": "前方300米左转。"
+        },
+        {
+          "id": "left-100",
+          "label": "左折 100m",
+          "text": "前方100米左转。"
+        },
+        {
+          "id": "left-now",
+          "label": "左折 直前",
+          "text": "现在左转。"
+        },
+        {
+          "id": "straight-300",
+          "label": "直進 300m",
+          "text": "前方300米继续直行。"
+        },
+        {
+          "id": "straight-100",
+          "label": "直進 100m",
+          "text": "前方100米继续直行。"
+        },
+        {
+          "id": "straight-now",
+          "label": "直進 直前",
+          "text": "现在继续直行。"
+        },
+        {
+          "id": "uTurn-300",
+          "label": "Uターン 300m",
+          "text": "前方300米掉头。"
+        },
+        {
+          "id": "uTurn-100",
+          "label": "Uターン 100m",
+          "text": "前方100米掉头。"
+        },
+        {
+          "id": "uTurn-now",
+          "label": "Uターン 直前",
+          "text": "现在掉头。"
+        }
+      ],
+      "modes": [],
+      "previewLane": "STANDARD_ANCHOR",
+      "regionalAccentCertified": false
+    },
+    {
+      "packID": "yue-Hant-HK-cantonese",
+      "displayName": "香港粵語 · 広東語・香港",
+      "languageTag": "yue-HK",
+      "languageRoot": "yue",
+      "regionCode": "HK",
+      "region": "広東語・香港",
+      "dialectID": "yue-Hant-HK-cantonese",
+      "version": "0.0.0-free-beta-text-draft",
+      "previewDisclaimer": "Draft wording only; system TTS is not the certified local voice; human review needed.",
+      "phrases": [
+        {
+          "id": "start",
+          "label": "案内開始",
+          "text": "而家開始導航喇。"
+        },
+        {
+          "id": "stop",
+          "label": "案内停止",
+          "text": "導航到呢度完喇。"
+        },
+        {
+          "id": "depart",
+          "label": "出発",
+          "text": "出發啦。"
+        },
+        {
+          "id": "reroute",
+          "label": "経路変更",
+          "text": "條路線改咗，跟住新路線行。"
+        },
+        {
+          "id": "arrived",
+          "label": "目的地到着",
+          "text": "到目的地喇。"
+        },
+        {
+          "id": "right-300",
+          "label": "右折 300m",
+          "text": "前面300米轉右。"
+        },
+        {
+          "id": "right-100",
+          "label": "右折 100m",
+          "text": "前面100米轉右。"
+        },
+        {
+          "id": "right-now",
+          "label": "右折 直前",
+          "text": "而家轉右。"
+        },
+        {
+          "id": "left-300",
+          "label": "左折 300m",
+          "text": "前面300米轉左。"
+        },
+        {
+          "id": "left-100",
+          "label": "左折 100m",
+          "text": "前面100米轉左。"
+        },
+        {
+          "id": "left-now",
+          "label": "左折 直前",
+          "text": "而家轉左。"
+        },
+        {
+          "id": "straight-300",
+          "label": "直進 300m",
+          "text": "前面300米繼續直行。"
+        },
+        {
+          "id": "straight-100",
+          "label": "直進 100m",
+          "text": "前面100米繼續直行。"
+        },
+        {
+          "id": "straight-now",
+          "label": "直進 直前",
+          "text": "而家繼續直行。"
+        },
+        {
+          "id": "uTurn-300",
+          "label": "Uターン 300m",
+          "text": "前面300米掉頭。"
+        },
+        {
+          "id": "uTurn-100",
+          "label": "Uターン 100m",
+          "text": "前面100米掉頭。"
+        },
+        {
+          "id": "uTurn-now",
+          "label": "Uターン 直前",
+          "text": "而家掉頭。"
+        }
+      ],
+      "modes": [],
+      "previewLane": "STANDARD_ANCHOR",
+      "regionalAccentCertified": false
+    },
+    {
+      "packID": "ar-001-msa",
+      "displayName": "العربية الفصحى الحديثة · アラビア語・現代標準語（MSA）",
+      "languageTag": "ar",
+      "languageRoot": "ar",
+      "regionCode": "001",
+      "region": "アラビア語・現代標準語（MSA）",
+      "dialectID": "ar-001-msa",
+      "version": "0.0.0-free-beta-text-draft",
+      "previewDisclaimer": "Draft wording only; system TTS is not the certified local voice; human review needed.",
+      "phrases": [
+        {
+          "id": "start",
+          "label": "案内開始",
+          "text": "بدأ الإرشاد إلى الوجهة."
+        },
+        {
+          "id": "stop",
+          "label": "案内停止",
+          "text": "تم إيقاف الإرشاد."
+        },
+        {
+          "id": "depart",
+          "label": "出発",
+          "text": "لننطلق الآن."
+        },
+        {
+          "id": "reroute",
+          "label": "経路変更",
+          "text": "تم تغيير المسار. اتبع المسار الجديد."
+        },
+        {
+          "id": "arrived",
+          "label": "目的地到着",
+          "text": "لقد وصلت إلى وجهتك."
+        },
+        {
+          "id": "right-300",
+          "label": "右折 300m",
+          "text": "بعد 300 متر، انعطف يمينًا."
+        },
+        {
+          "id": "right-100",
+          "label": "右折 100m",
+          "text": "بعد 100 متر، انعطف يمينًا."
+        },
+        {
+          "id": "right-now",
+          "label": "右折 直前",
+          "text": "انعطف يمينًا الآن."
+        },
+        {
+          "id": "left-300",
+          "label": "左折 300m",
+          "text": "بعد 300 متر، انعطف يسارًا."
+        },
+        {
+          "id": "left-100",
+          "label": "左折 100m",
+          "text": "بعد 100 متر، انعطف يسارًا."
+        },
+        {
+          "id": "left-now",
+          "label": "左折 直前",
+          "text": "انعطف يسارًا الآن."
+        },
+        {
+          "id": "straight-300",
+          "label": "直進 300m",
+          "text": "بعد 300 متر، واصل السير مباشرة."
+        },
+        {
+          "id": "straight-100",
+          "label": "直進 100m",
+          "text": "بعد 100 متر، واصل السير مباشرة."
+        },
+        {
+          "id": "straight-now",
+          "label": "直進 直前",
+          "text": "واصل السير مباشرة الآن."
+        },
+        {
+          "id": "uTurn-300",
+          "label": "Uターン 300m",
+          "text": "بعد 300 متر، استدر للعودة."
+        },
+        {
+          "id": "uTurn-100",
+          "label": "Uターン 100m",
+          "text": "بعد 100 متر، استدر للعودة."
+        },
+        {
+          "id": "uTurn-now",
+          "label": "Uターン 直前",
+          "text": "استدر للعودة الآن."
+        }
+      ],
+      "modes": [],
+      "previewLane": "STANDARD_ANCHOR",
+      "regionalAccentCertified": false
+    },
+    {
+      "packID": "hi-IN-standard",
+      "displayName": "मानक हिंदी · ヒンディー語・標準",
+      "languageTag": "hi-IN",
+      "languageRoot": "hi",
+      "regionCode": "IN",
+      "region": "ヒンディー語・標準",
+      "dialectID": "hi-IN-standard",
+      "version": "0.0.0-free-beta-text-draft",
+      "previewDisclaimer": "Draft wording only; system TTS is not the certified local voice; human review needed.",
+      "phrases": [
+        {
+          "id": "start",
+          "label": "案内開始",
+          "text": "आपके गंतव्य तक मार्गदर्शन शुरू हो रहा है।"
+        },
+        {
+          "id": "stop",
+          "label": "案内停止",
+          "text": "मार्गदर्शन बंद कर दिया गया है।"
+        },
+        {
+          "id": "depart",
+          "label": "出発",
+          "text": "चलिए, सफ़र शुरू करें।"
+        },
+        {
+          "id": "reroute",
+          "label": "経路変更",
+          "text": "रास्ता बदल गया है। अब नए रास्ते पर चलें।"
+        },
+        {
+          "id": "arrived",
+          "label": "目的地到着",
+          "text": "आप अपनी मंज़िल पर पहुँच गए हैं।"
+        },
+        {
+          "id": "right-300",
+          "label": "右折 300m",
+          "text": "300 मीटर आगे दाएँ मुड़ें।"
+        },
+        {
+          "id": "right-100",
+          "label": "右折 100m",
+          "text": "100 मीटर आगे दाएँ मुड़ें।"
+        },
+        {
+          "id": "right-now",
+          "label": "右折 直前",
+          "text": "यहीं दाएँ मुड़ें।"
+        },
+        {
+          "id": "left-300",
+          "label": "左折 300m",
+          "text": "300 मीटर आगे बाएँ मुड़ें।"
+        },
+        {
+          "id": "left-100",
+          "label": "左折 100m",
+          "text": "100 मीटर आगे बाएँ मुड़ें।"
+        },
+        {
+          "id": "left-now",
+          "label": "左折 直前",
+          "text": "यहीं बाएँ मुड़ें।"
+        },
+        {
+          "id": "straight-300",
+          "label": "直進 300m",
+          "text": "300 मीटर आगे भी सीधे चलते रहें।"
+        },
+        {
+          "id": "straight-100",
+          "label": "直進 100m",
+          "text": "100 मीटर आगे भी सीधे चलते रहें।"
+        },
+        {
+          "id": "straight-now",
+          "label": "直進 直前",
+          "text": "यहीं सीधे चलते रहें।"
+        },
+        {
+          "id": "uTurn-300",
+          "label": "Uターン 300m",
+          "text": "300 मीटर आगे यू-टर्न लें।"
+        },
+        {
+          "id": "uTurn-100",
+          "label": "Uターン 100m",
+          "text": "100 मीटर आगे यू-टर्न लें।"
+        },
+        {
+          "id": "uTurn-now",
+          "label": "Uターン 直前",
+          "text": "यहीं यू-टर्न लें।"
+        }
+      ],
+      "modes": [],
+      "previewLane": "STANDARD_ANCHOR",
+      "regionalAccentCertified": false
+    },
+    {
+      "packID": "id-ID-standard",
+      "displayName": "Bahasa Indonesia baku · インドネシア語・標準",
+      "languageTag": "id-ID",
+      "languageRoot": "id",
+      "regionCode": "ID",
+      "region": "インドネシア語・標準",
+      "dialectID": "id-ID-standard",
+      "version": "0.0.0-free-beta-text-draft",
+      "previewDisclaimer": "Draft wording only; system TTS is not the certified local voice; human review needed.",
+      "phrases": [
+        {
+          "id": "start",
+          "label": "案内開始",
+          "text": "Navigasi ke tujuan dimulai."
+        },
+        {
+          "id": "stop",
+          "label": "案内停止",
+          "text": "Panduan navigasi dihentikan."
+        },
+        {
+          "id": "depart",
+          "label": "出発",
+          "text": "Ayo berangkat."
+        },
+        {
+          "id": "reroute",
+          "label": "経路変更",
+          "text": "Rute berubah. Ikuti rute baru."
+        },
+        {
+          "id": "arrived",
+          "label": "目的地到着",
+          "text": "Anda sudah tiba di tujuan."
+        },
+        {
+          "id": "right-300",
+          "label": "右折 300m",
+          "text": "Dalam 300 meter, belok kanan."
+        },
+        {
+          "id": "right-100",
+          "label": "右折 100m",
+          "text": "Dalam 100 meter, belok kanan."
+        },
+        {
+          "id": "right-now",
+          "label": "右折 直前",
+          "text": "Belok kanan sekarang."
+        },
+        {
+          "id": "left-300",
+          "label": "左折 300m",
+          "text": "Dalam 300 meter, belok kiri."
+        },
+        {
+          "id": "left-100",
+          "label": "左折 100m",
+          "text": "Dalam 100 meter, belok kiri."
+        },
+        {
+          "id": "left-now",
+          "label": "左折 直前",
+          "text": "Belok kiri sekarang."
+        },
+        {
+          "id": "straight-300",
+          "label": "直進 300m",
+          "text": "Dalam 300 meter, terus lurus."
+        },
+        {
+          "id": "straight-100",
+          "label": "直進 100m",
+          "text": "Dalam 100 meter, terus lurus."
+        },
+        {
+          "id": "straight-now",
+          "label": "直進 直前",
+          "text": "Terus lurus sekarang."
+        },
+        {
+          "id": "uTurn-300",
+          "label": "Uターン 300m",
+          "text": "Dalam 300 meter, putar balik."
+        },
+        {
+          "id": "uTurn-100",
+          "label": "Uターン 100m",
+          "text": "Dalam 100 meter, putar balik."
+        },
+        {
+          "id": "uTurn-now",
+          "label": "Uターン 直前",
+          "text": "Putar balik sekarang."
+        }
+      ],
+      "modes": [],
+      "previewLane": "STANDARD_ANCHOR",
+      "regionalAccentCertified": false
+    },
+    {
+      "packID": "ja-kansai",
+      "displayName": "日本語・関西弁",
+      "languageTag": "ja-JP",
+      "languageRoot": "ja",
+      "regionCode": "JP",
+      "region": null,
+      "dialectID": "kansai",
+      "version": "0.0.0-free-beta-text-draft",
+      "previewDisclaimer": "Draft wording only; system TTS is not the certified local voice; human review needed.",
+      "phrases": [],
+      "modes": [
+        {
+          "id": "local",
+          "label": "Local · text draft",
+          "phrases": [
+            {
+              "id": "start",
+              "label": "Start",
+              "text": "ほな、行こか。"
+            },
+            {
+              "id": "stop",
+              "label": "Stop",
+              "text": "ここまでや。おつかれさん。"
+            },
+            {
+              "id": "depart",
+              "label": "Depart",
+              "text": "ほな、出発や。"
+            },
+            {
+              "id": "reroute",
+              "label": "Reroute",
+              "text": "ルート変わったで。こっから新しい道で行こか。"
+            },
+            {
+              "id": "arrived",
+              "label": "Arrived",
+              "text": "着いたで。おつかれさん。"
+            },
+            {
+              "id": "right-300",
+              "label": "Right · 300 m",
+              "text": "300メートル先、右やで。"
+            },
+            {
+              "id": "right-100",
+              "label": "Right · 100 m",
+              "text": "100メートル先、右やで。"
+            },
+            {
+              "id": "right-now",
+              "label": "Right · Now",
+              "text": "ここで、右やで。"
+            },
+            {
+              "id": "left-300",
+              "label": "Left · 300 m",
+              "text": "300メートル先、左やで。"
+            },
+            {
+              "id": "left-100",
+              "label": "Left · 100 m",
+              "text": "100メートル先、左やで。"
+            },
+            {
+              "id": "left-now",
+              "label": "Left · Now",
+              "text": "ここで、左やで。"
+            },
+            {
+              "id": "straight-300",
+              "label": "Straight · 300 m",
+              "text": "300メートル先、そのまままっすぐや。"
+            },
+            {
+              "id": "straight-100",
+              "label": "Straight · 100 m",
+              "text": "100メートル先、そのまままっすぐや。"
+            },
+            {
+              "id": "straight-now",
+              "label": "Straight · Now",
+              "text": "ここで、そのまままっすぐや。"
+            },
+            {
+              "id": "uTurn-300",
+              "label": "U-turn · 300 m",
+              "text": "300メートル先、Uターンやで。"
+            },
+            {
+              "id": "uTurn-100",
+              "label": "U-turn · 100 m",
+              "text": "100メートル先、Uターンやで。"
+            },
+            {
+              "id": "uTurn-now",
+              "label": "U-turn · Now",
+              "text": "ここで、Uターンやで。"
+            }
+          ]
+        },
+        {
+          "id": "deep-local",
+          "label": "Deep Local · text draft",
+          "phrases": [
+            {
+              "id": "start",
+              "label": "Start",
+              "text": "ほな行くでー！ 今日もええ感じに案内したるわ！"
+            },
+            {
+              "id": "stop",
+              "label": "Stop",
+              "text": "今日はここまでや！ おつかれさん、ほなまたな！"
+            },
+            {
+              "id": "depart",
+              "label": "Depart",
+              "text": "よっしゃ出発や！ ほな元気に行くでー！"
+            },
+            {
+              "id": "reroute",
+              "label": "Reroute",
+              "text": "おっと予定変更やー！ ルート組み直したで。ほな、こっから仕切り直しや！"
+            },
+            {
+              "id": "arrived",
+              "label": "Arrived",
+              "text": "着いた着いたー！ 無事到着や！ ようここまで来たなぁ、おつかれさん！"
+            },
+            {
+              "id": "right-300",
+              "label": "Right · 300 m",
+              "text": "300メートル先、右や右！ そこで曲がるでー！"
+            },
+            {
+              "id": "right-100",
+              "label": "Right · 100 m",
+              "text": "100メートル先、右やで！ 見落とさんといてな！"
+            },
+            {
+              "id": "right-now",
+              "label": "Right · Now",
+              "text": "ここで、右や！"
+            },
+            {
+              "id": "left-300",
+              "label": "Left · 300 m",
+              "text": "300メートル先、左や左！ そこで曲がるでー！"
+            },
+            {
+              "id": "left-100",
+              "label": "Left · 100 m",
+              "text": "100メートル先、左やで！ 見落とさんといてな！"
+            },
+            {
+              "id": "left-now",
+              "label": "Left · Now",
+              "text": "ここで、左や！"
+            },
+            {
+              "id": "straight-300",
+              "label": "Straight · 300 m",
+              "text": "300メートル先、まっすぐや！ 余計なことせんとそのまま行くでー！"
+            },
+            {
+              "id": "straight-100",
+              "label": "Straight · 100 m",
+              "text": "100メートル先、まっすぐや！ 余計なことせんとそのまま行くでー！"
+            },
+            {
+              "id": "straight-now",
+              "label": "Straight · Now",
+              "text": "ここで、まっすぐや！ 余計なことせんとそのまま行くでー！"
+            },
+            {
+              "id": "uTurn-300",
+              "label": "U-turn · 300 m",
+              "text": "300メートル先、Uターンや！ くるっと戻って仕切り直しやー！"
+            },
+            {
+              "id": "uTurn-100",
+              "label": "U-turn · 100 m",
+              "text": "100メートル先、Uターンや！ くるっと戻って仕切り直しやー！"
+            },
+            {
+              "id": "uTurn-now",
+              "label": "U-turn · Now",
+              "text": "ここで、Uターンや！ くるっと戻って仕切り直しやー！"
+            }
+          ]
+        }
+      ],
+      "previewLane": "REGIONAL_DRAFT",
+      "regionalAccentCertified": false
+    },
+    {
+      "packID": "zh-Hant-TW-taiwan-mandarin",
+      "displayName": "臺灣華語 · 台湾華語・地域発話",
+      "languageTag": "zh-TW",
+      "languageRoot": "zh",
+      "regionCode": "TW",
+      "region": "台湾華語・地域発話",
+      "dialectID": "zh-Hant-TW-taiwan-mandarin",
+      "version": "0.0.0-free-beta-text-draft",
+      "previewDisclaimer": "Draft wording only; system TTS is not the certified local voice; human review needed.",
+      "phrases": [],
+      "modes": [
+        {
+          "id": "local",
+          "label": "Local wording draft",
+          "phrases": [
+            {
+              "id": "start",
+              "label": "案内開始",
+              "text": "準備好囉？現在開始導航，我會陪你走到目的地。"
+            },
+            {
+              "id": "stop",
+              "label": "案内停止",
+              "text": "導航就到這邊，謝謝你。"
+            },
+            {
+              "id": "depart",
+              "label": "出発",
+              "text": "好，出發囉，照著路線走就可以。"
+            },
+            {
+              "id": "reroute",
+              "label": "経路変更",
+              "text": "路線重新規劃囉，接下來請走新的路線。"
+            },
+            {
+              "id": "arrived",
+              "label": "目的地到着",
+              "text": "平安抵達目的地了，辛苦囉！"
+            },
+            {
+              "id": "right-300",
+              "label": "右折 300m",
+              "text": "前方300公尺右轉。"
+            },
+            {
+              "id": "right-100",
+              "label": "右折 100m",
+              "text": "前方100公尺右轉。"
+            },
+            {
+              "id": "right-now",
+              "label": "右折 直前",
+              "text": "現在右轉。"
+            },
+            {
+              "id": "left-300",
+              "label": "左折 300m",
+              "text": "前方300公尺左轉。"
+            },
+            {
+              "id": "left-100",
+              "label": "左折 100m",
+              "text": "前方100公尺左轉。"
+            },
+            {
+              "id": "left-now",
+              "label": "左折 直前",
+              "text": "現在左轉。"
+            },
+            {
+              "id": "straight-300",
+              "label": "直進 300m",
+              "text": "前方300公尺繼續直行。"
+            },
+            {
+              "id": "straight-100",
+              "label": "直進 100m",
+              "text": "前方100公尺繼續直行。"
+            },
+            {
+              "id": "straight-now",
+              "label": "直進 直前",
+              "text": "現在繼續直行。"
+            },
+            {
+              "id": "uTurn-300",
+              "label": "Uターン 300m",
+              "text": "前方300公尺迴轉。"
+            },
+            {
+              "id": "uTurn-100",
+              "label": "Uターン 100m",
+              "text": "前方100公尺迴轉。"
+            },
+            {
+              "id": "uTurn-now",
+              "label": "Uターン 直前",
+              "text": "現在迴轉。"
+            }
+          ]
+        },
+        {
+          "id": "deep-local",
+          "label": "Deep Local wording draft",
+          "phrases": [
+            {
+              "id": "start",
+              "label": "案内開始",
+              "text": "出發囉！今天就讓我陪你一路導航。"
+            },
+            {
+              "id": "stop",
+              "label": "案内停止",
+              "text": "今天導航先到這裡，辛苦啦！"
+            },
+            {
+              "id": "depart",
+              "label": "出発",
+              "text": "走囉！別急，我們照著路線來。"
+            },
+            {
+              "id": "reroute",
+              "label": "経路変更",
+              "text": "欸，路線變了！沒關係，我帶你走新的。"
+            },
+            {
+              "id": "arrived",
+              "label": "目的地到着",
+              "text": "到囉到囉！平安抵達，太棒啦。"
+            },
+            {
+              "id": "right-300",
+              "label": "右折 300m",
+              "text": "前方300公尺右轉，先留意一下路口喔。"
+            },
+            {
+              "id": "right-100",
+              "label": "右折 100m",
+              "text": "前方100公尺右轉。"
+            },
+            {
+              "id": "right-now",
+              "label": "右折 直前",
+              "text": "現在右轉。"
+            },
+            {
+              "id": "left-300",
+              "label": "左折 300m",
+              "text": "前方300公尺左轉，先留意一下路口喔。"
+            },
+            {
+              "id": "left-100",
+              "label": "左折 100m",
+              "text": "前方100公尺左轉。"
+            },
+            {
+              "id": "left-now",
+              "label": "左折 直前",
+              "text": "現在左轉。"
+            },
+            {
+              "id": "straight-300",
+              "label": "直進 300m",
+              "text": "前方300公尺繼續直行，照這樣走就可以。"
+            },
+            {
+              "id": "straight-100",
+              "label": "直進 100m",
+              "text": "前方100公尺繼續直行。"
+            },
+            {
+              "id": "straight-now",
+              "label": "直進 直前",
+              "text": "現在繼續直行。"
+            },
+            {
+              "id": "uTurn-300",
+              "label": "Uターン 300m",
+              "text": "前方300公尺迴轉，記得注意路況。"
+            },
+            {
+              "id": "uTurn-100",
+              "label": "Uターン 100m",
+              "text": "前方100公尺迴轉。"
+            },
+            {
+              "id": "uTurn-now",
+              "label": "Uターン 直前",
+              "text": "現在迴轉。"
+            }
+          ]
+        }
+      ],
+      "previewLane": "TEXT_FIRST",
+      "regionalAccentCertified": false
+    },
+    {
+      "packID": "id-ID-jakarta-colloquial",
+      "displayName": "Bahasa Indonesia Jakarta · インドネシア語・ジャカルタ都市口語",
+      "languageTag": "id-ID",
+      "languageRoot": "id",
+      "regionCode": "ID",
+      "region": "インドネシア語・ジャカルタ都市口語",
+      "dialectID": "id-ID-jakarta-colloquial",
+      "version": "0.0.0-free-beta-text-draft",
+      "previewDisclaimer": "Draft wording only; system TTS is not the certified local voice; human review needed.",
+      "phrases": [],
+      "modes": [
+        {
+          "id": "local",
+          "label": "Local wording draft",
+          "phrases": [
+            {
+              "id": "start",
+              "label": "案内開始",
+              "text": "Yuk, mulai navigasinya. Aku bantu cari jalan sampai tujuan."
+            },
+            {
+              "id": "stop",
+              "label": "案内停止",
+              "text": "Oke, navigasinya selesai sampai sini."
+            },
+            {
+              "id": "depart",
+              "label": "出発",
+              "text": "Oke, kita berangkat sekarang, ya."
+            },
+            {
+              "id": "reroute",
+              "label": "経路変更",
+              "text": "Rutenya berubah. Kita ikut jalan yang baru, ya."
+            },
+            {
+              "id": "arrived",
+              "label": "目的地到着",
+              "text": "Nah, udah sampai tujuan. Mantap!"
+            },
+            {
+              "id": "right-300",
+              "label": "右折 300m",
+              "text": "Dalam 300 meter, belok kanan."
+            },
+            {
+              "id": "right-100",
+              "label": "右折 100m",
+              "text": "Dalam 100 meter, belok kanan."
+            },
+            {
+              "id": "right-now",
+              "label": "右折 直前",
+              "text": "Belok kanan sekarang."
+            },
+            {
+              "id": "left-300",
+              "label": "左折 300m",
+              "text": "Dalam 300 meter, belok kiri."
+            },
+            {
+              "id": "left-100",
+              "label": "左折 100m",
+              "text": "Dalam 100 meter, belok kiri."
+            },
+            {
+              "id": "left-now",
+              "label": "左折 直前",
+              "text": "Belok kiri sekarang."
+            },
+            {
+              "id": "straight-300",
+              "label": "直進 300m",
+              "text": "Dalam 300 meter, terus lurus."
+            },
+            {
+              "id": "straight-100",
+              "label": "直進 100m",
+              "text": "Dalam 100 meter, terus lurus."
+            },
+            {
+              "id": "straight-now",
+              "label": "直進 直前",
+              "text": "Terus lurus sekarang."
+            },
+            {
+              "id": "uTurn-300",
+              "label": "Uターン 300m",
+              "text": "Dalam 300 meter, putar balik."
+            },
+            {
+              "id": "uTurn-100",
+              "label": "Uターン 100m",
+              "text": "Dalam 100 meter, putar balik."
+            },
+            {
+              "id": "uTurn-now",
+              "label": "Uターン 直前",
+              "text": "Putar balik sekarang."
+            }
+          ]
+        },
+        {
+          "id": "deep-local",
+          "label": "Deep Local wording draft",
+          "phrases": [
+            {
+              "id": "start",
+              "label": "案内開始",
+              "text": "Yuk, gas! Gue temenin sampai tujuan, santai aja."
+            },
+            {
+              "id": "stop",
+              "label": "案内停止",
+              "text": "Sip, navigasi kelar. Sampai ketemu lagi!"
+            },
+            {
+              "id": "depart",
+              "label": "出発",
+              "text": "Gas, kita jalan sekarang. Pelan-pelan aja."
+            },
+            {
+              "id": "reroute",
+              "label": "経路変更",
+              "text": "Waduh, rutenya ganti! Santai, kita ikut yang baru."
+            },
+            {
+              "id": "arrived",
+              "label": "目的地到着",
+              "text": "Wih, udah nyampe! Mantap, akhirnya sampai!"
+            },
+            {
+              "id": "right-300",
+              "label": "右折 300m",
+              "text": "Dalam 300 meter, belok kanan. Siap-siap dari sekarang, ya."
+            },
+            {
+              "id": "right-100",
+              "label": "右折 100m",
+              "text": "Dalam 100 meter, belok kanan."
+            },
+            {
+              "id": "right-now",
+              "label": "右折 直前",
+              "text": "Belok kanan sekarang."
+            },
+            {
+              "id": "left-300",
+              "label": "左折 300m",
+              "text": "Dalam 300 meter, belok kiri. Siap-siap dari sekarang, ya."
+            },
+            {
+              "id": "left-100",
+              "label": "左折 100m",
+              "text": "Dalam 100 meter, belok kiri."
+            },
+            {
+              "id": "left-now",
+              "label": "左折 直前",
+              "text": "Belok kiri sekarang."
+            },
+            {
+              "id": "straight-300",
+              "label": "直進 300m",
+              "text": "Dalam 300 meter, terus lurus. Santai, lanjut aja."
+            },
+            {
+              "id": "straight-100",
+              "label": "直進 100m",
+              "text": "Dalam 100 meter, terus lurus."
+            },
+            {
+              "id": "straight-now",
+              "label": "直進 直前",
+              "text": "Terus lurus sekarang."
+            },
+            {
+              "id": "uTurn-300",
+              "label": "Uターン 300m",
+              "text": "Dalam 300 meter, putar balik. Pelan-pelan, ya."
+            },
+            {
+              "id": "uTurn-100",
+              "label": "Uターン 100m",
+              "text": "Dalam 100 meter, putar balik."
+            },
+            {
+              "id": "uTurn-now",
+              "label": "Uターン 直前",
+              "text": "Putar balik sekarang."
+            }
+          ]
+        }
+      ],
+      "previewLane": "TEXT_FIRST",
+      "regionalAccentCertified": false
+    }
+  ]
+}

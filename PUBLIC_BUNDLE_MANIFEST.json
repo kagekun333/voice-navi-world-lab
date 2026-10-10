@@ -1,64 +1,122 @@
 {
-  "schemaVersion": "0.2.0",
+  "schemaVersion": "0.3.0",
+  "status": "TWO_STABLE_PACKS_PLUS_FREE_13_LANGUAGE_EXPERIMENTAL_BETA",
+  "previousMainCommit": "1c3d2391ee9d43ff71eec949eadeeeacd8a188c1",
   "publicPackIDs": [
     "ja-standard",
     "ja-kansai"
   ],
+  "globalBetaPath": "/voice-navi-world-lab/beta/",
+  "globalBetaLanguageRoots": 13,
+  "globalBetaPackIDs": [
+    "ja-standard",
+    "en-US-standard",
+    "fr-FR-standard",
+    "es-ES-standard",
+    "pt-BR-base-voce-subjunctive",
+    "de-DE-base-formal-sie",
+    "it-IT-base-formal-lei",
+    "ko-KR-standard",
+    "zh-CN-standard",
+    "yue-Hant-HK-cantonese",
+    "ar-001-msa",
+    "hi-IN-standard",
+    "id-ID-standard",
+    "ja-kansai",
+    "zh-Hant-TW-taiwan-mandarin",
+    "id-ID-jakarta-colloquial"
+  ],
+  "regionalAccentHumanCertified": 0,
   "files": [
     {
       "path": ".nojekyll",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "bytes": 0
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
       "path": "README.md",
-      "sha256": "bec0785d1d42adf369d6b35034fb65030cd8aa5c8202bb33efdcf9707974e20b",
-      "bytes": 457
+      "bytes": 1082,
+      "sha256": "9a023e7861cc9d1e998ce39cefa5ed760647f0e6819ea7a02a7d3bb57019fa9a"
     },
     {
       "path": "app.js",
-      "sha256": "808a23f2fbd1a688b04178587699da68d99992aa557caea5fa3250de2c9b4843",
-      "bytes": 19891
+      "bytes": 19891,
+      "sha256": "808a23f2fbd1a688b04178587699da68d99992aa557caea5fa3250de2c9b4843"
     },
     {
       "path": "apple-touch-icon.png",
-      "sha256": "5917bc9857f17d80e6186eb453c28fac7e7ce77611910cd2c4045f47e736c5db",
-      "bytes": 872
+      "bytes": 872,
+      "sha256": "5917bc9857f17d80e6186eb453c28fac7e7ce77611910cd2c4045f47e736c5db"
+    },
+    {
+      "path": "beta/app.js",
+      "bytes": 27946,
+      "sha256": "abcc3b7711ca91ea1b5844ae10470f816f7cd5171599b27f3e1de323001befcb"
+    },
+    {
+      "path": "beta/apple-touch-icon.png",
+      "bytes": 872,
+      "sha256": "5917bc9857f17d80e6186eb453c28fac7e7ce77611910cd2c4045f47e736c5db"
+    },
+    {
+      "path": "beta/data/catalog.json",
+      "bytes": 57569,
+      "sha256": "879f4aac293b2bf425d808eec13abd97aac486c05d21c7406295b67c28b118f2"
+    },
+    {
+      "path": "beta/icon-512.png",
+      "bytes": 2584,
+      "sha256": "46d14f1f5b7bb0f69c61ef49efabd3e2a1eeeaf088d02d67cc25797bc0028c54"
+    },
+    {
+      "path": "beta/icon.svg",
+      "bytes": 307,
+      "sha256": "0c052e2bffe9d69839fc52effe7a8a50e3e80ed390ef2c5ff06e07b243a8df1a"
+    },
+    {
+      "path": "beta/index.html",
+      "bytes": 11166,
+      "sha256": "4b00d875bfe624b22caf8650841a236547db10dce9dfc20ae97146651ac4ad79"
+    },
+    {
+      "path": "beta/styles.css",
+      "bytes": 11000,
+      "sha256": "1321c3eb635818385b7d73ff538e8b1a11f58e81b4b42c90ceaff2a60ab700f3"
     },
     {
       "path": "data/catalog.json",
-      "sha256": "dcf9398acc874e774a49206487a3bf952b3f82c1aca0d8c285710b123c4e84b9",
-      "bytes": 3353
+      "bytes": 3353,
+      "sha256": "dcf9398acc874e774a49206487a3bf952b3f82c1aca0d8c285710b123c4e84b9"
     },
     {
       "path": "icon-512.png",
-      "sha256": "46d14f1f5b7bb0f69c61ef49efabd3e2a1eeeaf088d02d67cc25797bc0028c54",
-      "bytes": 2584
+      "bytes": 2584,
+      "sha256": "46d14f1f5b7bb0f69c61ef49efabd3e2a1eeeaf088d02d67cc25797bc0028c54"
     },
     {
       "path": "icon.svg",
-      "sha256": "0c052e2bffe9d69839fc52effe7a8a50e3e80ed390ef2c5ff06e07b243a8df1a",
-      "bytes": 307
+      "bytes": 307,
+      "sha256": "0c052e2bffe9d69839fc52effe7a8a50e3e80ed390ef2c5ff06e07b243a8df1a"
     },
     {
       "path": "index.html",
-      "sha256": "e76a5b04b4754660ece6f7f3c075e6d0b9a784f4730770cbb69d3bc970d85a6e",
-      "bytes": 8860
+      "bytes": 9335,
+      "sha256": "9b965f56b22543ab447e4ddbad8afa3bcd67b7113189a394f9d522c0067272b2"
     },
     {
       "path": "manifest.webmanifest",
-      "sha256": "1d43c1f6d696a1491b9dbb3a960c879121a3a9196833a2557e315fb8dd5c2bef",
-      "bytes": 530
+      "bytes": 530,
+      "sha256": "1d43c1f6d696a1491b9dbb3a960c879121a3a9196833a2557e315fb8dd5c2bef"
     },
     {
       "path": "service-worker.js",
-      "sha256": "92432843240376000c5898ab66ccf00a3e28676590fd6bc8387898beeeca03d7",
-      "bytes": 1937
+      "bytes": 1937,
+      "sha256": "92432843240376000c5898ab66ccf00a3e28676590fd6bc8387898beeeca03d7"
     },
     {
       "path": "styles.css",
-      "sha256": "446efdd10bb691ce1fa219de19a0c71913afb6c22f7f14933f218b0aad9e91a9",
-      "bytes": 10555
+      "bytes": 10555,
+      "sha256": "446efdd10bb691ce1fa219de19a0c71913afb6c22f7f14933f218b0aad9e91a9"
     }
   ]
 }
