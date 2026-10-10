@@ -1,7 +1,7 @@
 {
   "schemaVersion": "0.3.0",
-  "status": "TWO_STABLE_PACKS_PLUS_FREE_13_LANGUAGE_EXPERIMENTAL_BETA",
-  "previousMainCommit": "1c3d2391ee9d43ff71eec949eadeeeacd8a188c1",
+  "status": "FREE_13_LANGUAGE_BETA_TWO_PILOT_WORDING_REVISIONS_NOT_ACCENT_CERTIFIED",
+  "previousMainCommit": "ca13096d6ac9d1a63bc86d4ab722272e7ad5b683",
   "publicPackIDs": [
     "ja-standard",
     "ja-kansai"
@@ -60,8 +60,8 @@
     },
     {
       "path": "beta/data/catalog.json",
-      "bytes": 57569,
-      "sha256": "879f4aac293b2bf425d808eec13abd97aac486c05d21c7406295b67c28b118f2"
+      "bytes": 57879,
+      "sha256": "327be2002d3a7ac5a3ed69a8baec9022fffbbd6235ebde9a49f2dc51c29e55f1"
     },
     {
       "path": "beta/icon-512.png",
@@ -118,5 +118,6 @@
       "bytes": 10555,
       "sha256": "446efdd10bb691ce1fa219de19a0c71913afb6c22f7f14933f218b0aad9e91a9"
     }
-  ]
+  ],
+  "2026-10-10-v5-edit-note": "2 already published experimental regional wording pilots; 12 edited phrases; 0 new packs; 0 native approvals"
 }

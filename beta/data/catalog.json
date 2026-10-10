@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.2.0",
-  "source": "VOICE NAVI Public Experimental Free Global Beta",
+  "source": "VOICE NAVI 13-language experimental free beta — 2 provisional local wording revisions",
   "packCount": 16,
   "packs": [
     {
@@ -1522,8 +1522,8 @@
       "regionCode": "TW",
       "region": "台湾華語・地域発話",
       "dialectID": "zh-Hant-TW-taiwan-mandarin",
-      "version": "0.0.0-free-beta-text-draft",
-      "previewDisclaimer": "Draft wording only; system TTS is not the certified local voice; human review needed.",
+      "version": "0.0.1-experimental-local-wording-draft",
+      "previewDisclaimer": "Free experimental regional WORDING preview; native-language review pending. System TTS is not the certified regional accent. Not live driving navigation.",
       "phrases": [],
       "modes": [
         {
@@ -1533,7 +1533,7 @@
             {
               "id": "start",
               "label": "案内開始",
-              "text": "準備好囉？現在開始導航，我會陪你走到目的地。"
+              "text": "導航開始囉，我會陪你走到目的地。"
             },
             {
               "id": "stop",
@@ -1543,7 +1543,7 @@
             {
               "id": "depart",
               "label": "出発",
-              "text": "好，出發囉，照著路線走就可以。"
+              "text": "好，出發囉！照著路線走就可以。"
             },
             {
               "id": "reroute",
@@ -1624,12 +1624,12 @@
             {
               "id": "start",
               "label": "案内開始",
-              "text": "出發囉！今天就讓我陪你一路導航。"
+              "text": "好啦，導航開始囉！今天就讓我一路陪你到目的地。"
             },
             {
               "id": "stop",
               "label": "案内停止",
-              "text": "今天導航先到這裡，辛苦啦！"
+              "text": "導航就在這裡結束囉！辛苦啦，下次見！"
             },
             {
               "id": "depart",
@@ -1639,12 +1639,12 @@
             {
               "id": "reroute",
               "label": "経路変更",
-              "text": "欸，路線變了！沒關係，我帶你走新的。"
+              "text": "欸，路線重新規劃囉！別緊張，接下來照新的路線走喔。"
             },
             {
               "id": "arrived",
               "label": "目的地到着",
-              "text": "到囉到囉！平安抵達，太棒啦。"
+              "text": "到囉到囉！平安抵達目的地，辛苦啦！"
             },
             {
               "id": "right-300",
@@ -1720,8 +1720,8 @@
       "regionCode": "ID",
       "region": "インドネシア語・ジャカルタ都市口語",
       "dialectID": "id-ID-jakarta-colloquial",
-      "version": "0.0.0-free-beta-text-draft",
-      "previewDisclaimer": "Draft wording only; system TTS is not the certified local voice; human review needed.",
+      "version": "0.0.1-experimental-local-wording-draft",
+      "previewDisclaimer": "Free experimental regional WORDING preview; native-language review pending. System TTS is not the certified regional accent. Not live driving navigation.",
       "phrases": [],
       "modes": [
         {
@@ -1731,7 +1731,7 @@
             {
               "id": "start",
               "label": "案内開始",
-              "text": "Yuk, mulai navigasinya. Aku bantu cari jalan sampai tujuan."
+              "text": "Navigasinya mulai sekarang, ya. Aku bantuin cari jalan sampai tujuan."
             },
             {
               "id": "stop",
@@ -1746,7 +1746,7 @@
             {
               "id": "reroute",
               "label": "経路変更",
-              "text": "Rutenya berubah. Kita ikut jalan yang baru, ya."
+              "text": "Rutenya berubah, ya. Kita ikutin jalan yang baru."
             },
             {
               "id": "arrived",
@@ -1822,12 +1822,12 @@
             {
               "id": "start",
               "label": "案内開始",
-              "text": "Yuk, gas! Gue temenin sampai tujuan, santai aja."
+              "text": "Oke, gas! Navigasinya udah mulai. Gue bantuin cari jalan sampai tujuan!"
             },
             {
               "id": "stop",
               "label": "案内停止",
-              "text": "Sip, navigasi kelar. Sampai ketemu lagi!"
+              "text": "Sip, navigasinya kelar. Makasih udah jalan bareng!"
             },
             {
               "id": "depart",
@@ -1837,12 +1837,12 @@
             {
               "id": "reroute",
               "label": "経路変更",
-              "text": "Waduh, rutenya ganti! Santai, kita ikut yang baru."
+              "text": "Waduh, rutenya ganti! Tenang, gue cariin jalan baru, ya."
             },
             {
               "id": "arrived",
               "label": "目的地到着",
-              "text": "Wih, udah nyampe! Mantap, akhirnya sampai!"
+              "text": "Wih, udah nyampe tujuan! Mantap, akhirnya kelar juga!"
             },
             {
               "id": "right-300",
